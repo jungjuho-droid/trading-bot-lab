@@ -1,5 +1,5 @@
 ---
-title: "오토 키 레벨 — 지지선을 손으로 긋지 않기로 했다 | Crypto Trading Bot"
+title: "Auto Key Levels — 지지선을 손으로 긋지 않기로 했다 | Crypto Trading Bot"
 description: "AUTO KEY LEVELS · Letting the Code Draw the Lines"
 date: 2026-08-14T20:50:00+09:00
 draft: false

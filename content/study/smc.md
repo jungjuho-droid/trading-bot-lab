@@ -1,5 +1,5 @@
 ---
-title: "SMC 스마트 머니 컨셉 — BOS·CHoCH·오더블록을 봇의 언어로 번역한다 | Crypto Trading Bot"
+title: "SMC (Smart Money Concepts) — BOS·CHoCH·오더블록을 봇의 언어로 번역한다 | Crypto Trading Bot"
 description: "SMC · Smart Money Concepts, Translated into Bot Logic"
 date: 2026-08-14T19:40:00+09:00
 draft: false

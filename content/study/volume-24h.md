@@ -1,5 +1,5 @@
 ---
-title: "24시간 거래대금 — 살 수 있는 종목인지 먼저 묻는다 | Crypto Trading Bot"
+title: "24h Trading Value — 살 수 있는 종목인지 먼저 묻는다 | Crypto Trading Bot"
 description: "24H VOLUME · Can I Actually Trade This?"
 date: 2026-08-14T20:30:00+09:00
 draft: false

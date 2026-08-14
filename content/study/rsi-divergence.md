@@ -1,5 +1,5 @@
 ---
-title: "RSI 다이버전스 오실레이터 — 파인스크립트 한 장으로 봇 한 대를 조립한다 | Crypto Trading Bot"
+title: "RSI Divergence Oscillator — 파인스크립트 한 장으로 봇 한 대를 조립한다 | Crypto Trading Bot"
 description: "RSI DIVERGENCE · From One Pine Script to a Working Trading Bot"
 date: 2026-08-14T19:00:00+09:00
 draft: false

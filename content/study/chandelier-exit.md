@@ -1,5 +1,5 @@
 ---
-title: "샹들리에 엑시트 — 천장에 매달아 놓고 따라 올리는 손절선 | Crypto Trading Bot"
+title: "Chandelier Exit — 천장에 매달아 놓고 따라 올리는 손절선 | Crypto Trading Bot"
 description: "CHANDELIER EXIT · A Stop That Hangs From the Ceiling"
 date: 2026-08-14T21:00:00+09:00
 draft: false

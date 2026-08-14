@@ -1,5 +1,5 @@
 ---
-title: "이동평균 교차 — 내 봇이 처음 배운 규칙, 그리고 제일 먼저 버린 규칙 | Crypto Trading Bot"
+title: "MA Cross — 내 봇이 처음 배운 규칙, 그리고 제일 먼저 버린 규칙 | Crypto Trading Bot"
 description: "MA CROSS · The First Rule My Bot Learned, and the First It Dropped"
 date: 2026-08-14T20:20:00+09:00
 draft: false

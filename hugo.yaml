@@ -14,6 +14,13 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+# 초기 연재분(자동 생성 451편)은 시대별 아카이브로 통합했다.
+# 원본 파일은 저장소에 남기되 사이트에는 게시하지 않는다.
+ignoreFiles:
+  - "content/posts/vv[0-9]+\\.md$"
+  - "content/posts/(ma|upbit|hy|base|macro|bithumb|engine|vvwap)-.*\\.md$"
+  - "content/posts/bt-.*\\.md$"
+
 googleAnalytics: ""
 
 minify:
@@ -21,24 +28,24 @@ minify:
 
 params:
   env: production
-  mainSections: ["study", "posts"]
+  mainSections: ["study", "posts", "archive"]
   title: "Trading Bot Lab"
-  description: "혼자 돌리는 Trading Bot을 몇백 번 고쳐가며 배운 것들을 기록합니다."
-  keywords: [Trading, Bot, Algorithm, "Lab Notes", 트레이딩, 알고리즘]
+  description: "혼자 트레이딩 봇을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
+  keywords: [트레이딩봇, 자동매매, 매매지표, RSI, 거래량, 업비트, 개발일지]
   author: "JH"
-  DateFormat: "2006.01.02"
+  DateFormat: "2006년 1월 2일"
   defaultTheme: auto
   disableThemeToggle: false
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: false
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -70,15 +77,23 @@ params:
 
       버티는 쪽에 걸어보려고 합니다. 천천히, 자주 쓸게요.
 
+  footer:
+    hideCopyright: false
+    text: >
+      문의 jungjuho@gmail.com · [개인정보 처리방침](/trading-bot-lab/privacy/)
+
+
+      이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다.
+
   editPost:
     URL: ""
     Text: ""
     appendFilePath: false
 
   cover:
-    hidden: false
-    hiddenInList: false
-    hiddenInSingle: false
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   fuseOpts:
     isCaseSensitive: false
@@ -98,23 +113,23 @@ menu:
     - identifier: study
       name: 지표 스터디
       url: /study/
-      weight: 12
-    - identifier: posts
-      name: 글 목록
-      url: /posts/
       weight: 20
+    - identifier: posts
+      name: 개발일지
+      url: /posts/
+      weight: 30
+    - identifier: archive
+      name: 개발 아카이브
+      url: /archive/
+      weight: 40
     - identifier: about
       name: 소개
       url: /about/
-      weight: 30
+      weight: 50
     - identifier: search
       name: 검색
       url: /search/
-      weight: 40
-    - identifier: tags
-      name: 태그
-      url: /tags/
-      weight: 50
+      weight: 60
 
 outputs:
   home:

@@ -35,8 +35,8 @@ params:
   env: production
   mainSections: ["study", "posts", "archive"]
   title: "Trading Bot Lab"
-  description: "혼자 트레이딩 봇을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
-  keywords: [트레이딩봇, 자동매매, 매매지표, RSI, 거래량, 업비트, 개발일지]
+  description: "Crypto Trading Bot Dev Log — 혼자 크립토 트레이딩 봇(Crypto Trading Bot)을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
+  keywords: [crypto trading bot, trading bot, algorithmic trading, upbit bot, 크립토 트레이딩 봇, 트레이딩봇, 자동매매, 매매지표, RSI, 거래량, 업비트, 개발일지]
   author: "JH"
   DateFormat: "2006년 1월 2일"
   defaultTheme: auto
@@ -68,9 +68,9 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Trading Bot Lab"
+    Title: "Trading Bot Lab — Crypto Trading Bot Dev Log"
     Content: >
-      안녕하세요. 이 블로그는 혼자서 트레이딩 봇을 만들고, 부수고, 다시 고치는 과정을 기록하는 공간입니다.
+      안녕하세요. 이 블로그는 혼자서 크립토 트레이딩 봇(Crypto Trading Bot)을 만들고, 부수고, 다시 고치는 과정을 기록하는 공간입니다.
 
 
       거창한 투자 리포트나 "이렇게 하면 무조건 번다" 류의 글은 아니고요, 그냥 새벽에 봇 로그 들여다보다가 깨달은 것들,
@@ -82,13 +82,19 @@ params:
 
       버티는 쪽에 걸어보려고 합니다. 천천히, 자주 쓸게요.
 
+
+      **Crypto Trading Bot Dev Log** — building, breaking and fixing a crypto trading bot, one version at a time.
+
+
+      Indicator studies, dev logs and a six-era archive of an Upbit crypto trading bot. Written in Korean.
+
   footer:
     hideCopyright: false
     text: >
       문의 jungjuho@gmail.com · [개인정보 처리방침](/privacy/)
 
 
-      이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다.
+      이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다. · A personal crypto trading bot dev log — not investment advice.
 
   editPost:
     URL: ""

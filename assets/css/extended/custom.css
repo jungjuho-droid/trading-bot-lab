@@ -23,8 +23,14 @@
     --tertiary: var(--paper-2);
     --content: var(--ink);
     --border: var(--rule);
+    --code-bg: var(--paper-2);
+    --code-block-bg: var(--paper-2);
 }
 
+/* PaperMod 는 html[data-theme] 로 테마를 전환한다.
+   prefers-color-scheme 미디어쿼리를 쓰면 수동 토글이 안 먹으므로 쓰지 않는다. */
+html[data-theme="dark"],
+html[data-theme="dark"] body,
 .dark,
 body.dark {
     --ink: #e6e0d4;
@@ -42,27 +48,15 @@ body.dark {
     --tertiary: var(--paper-2);
     --content: var(--ink);
     --border: var(--rule);
+    --code-bg: var(--paper-2);
+    --code-block-bg: var(--paper-2);
+    color-scheme: dark;
 }
 
-/* PaperMod 는 defaultTheme:auto 일 때 .dark 클래스 없이 미디어쿼리로 동작한다 */
-@media (prefers-color-scheme: dark) {
-    body:not(.light) {
-    --ink: #e6e0d4;
-    --ink-soft: #a49b8b;
-    --paper: #1e1c19;
-    --paper-2: #2a2723;
-    --rule: #3b362f;
-    --mark: #d99268;
-    --mark-soft: #8a6249;
-
-    --theme: var(--paper);
-    --entry: #24211d;
-    --primary: var(--ink);
-    --secondary: var(--ink-soft);
-    --tertiary: var(--paper-2);
-    --content: var(--ink);
-    --border: var(--rule);
-    }
+html[data-theme="dark"] .list,
+.dark .list,
+body.dark.list {
+    background: var(--paper);
 }
 
 html, body, input, textarea, button {
@@ -217,6 +211,7 @@ body {
     background: linear-gradient(transparent 62%, var(--mark-soft) 62%, var(--mark-soft) 88%, transparent 88%);
 }
 
+html[data-theme="dark"] .post-content strong,
 .dark .post-content strong {
     background: linear-gradient(transparent 62%, rgba(217,146,104,0.28) 62%, rgba(217,146,104,0.28) 88%, transparent 88%);
 }
@@ -254,6 +249,7 @@ body {
     box-shadow: none;
 }
 
+html[data-theme="dark"] .post-content .term,
 .dark .post-content .term { background: #191714; }
 
 .post-content .term-bar {
@@ -310,9 +306,13 @@ body {
 .post-content .term .b { color: #47707d; }
 .post-content .term .w { color: var(--ink); font-weight: 700; }
 
+html[data-theme="dark"] .post-content .term .g,
 .dark .post-content .term .g { color: #8fb383; }
+html[data-theme="dark"] .post-content .term .y,
 .dark .post-content .term .y { color: #d4ab63; }
+html[data-theme="dark"] .post-content .term .r,
 .dark .post-content .term .r { color: #d98b73; }
+html[data-theme="dark"] .post-content .term .b,
 .dark .post-content .term .b { color: #7fb0bd; }
 
 /* 일반 코드블록 */
@@ -392,13 +392,4 @@ body {
 }
 
 /* 미디어쿼리 다크에서도 같은 보정 */
-@media (prefers-color-scheme: dark) {
-    body:not(.light) .post-content strong {
-        background: linear-gradient(transparent 62%, rgba(217,146,104,0.28) 62%, rgba(217,146,104,0.28) 88%, transparent 88%);
-    }
-    body:not(.light) .post-content .term { background: #191714; }
-    body:not(.light) .post-content .term .g { color: #8fb383; }
-    body:not(.light) .post-content .term .y { color: #d4ab63; }
-    body:not(.light) .post-content .term .r { color: #d98b73; }
-    body:not(.light) .post-content .term .b { color: #7fb0bd; }
-}
+

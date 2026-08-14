@@ -1,7 +1,7 @@
 ---
 title: "[지표 스터디] RSI — 교과서는 30, 내 봇은 45"
 description: "RSI · The Textbook Says 30, My Bot Says 45"
-date: 2026-08-14T21:00:00+09:00
+date: 2026-08-14T18:00:00+09:00
 draft: false
 tags: ["지표스터디", "RSI", "과매도", "눌림목전략", "백테스트", "파라미터튜닝", "자동매매", "Trading Bot Lab"]
 summary: "상대강도지수를 개발자의 눈으로 해부한다. 그리고 교과서의 30이 왜 내 봇에서는 45가 됐는지."

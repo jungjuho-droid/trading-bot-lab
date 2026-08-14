@@ -94,15 +94,15 @@ LG전자를 첫 타자로 잡은 건 이 구간의 모양이 가장 단순해서
 <div class="term-bar"><i></i><i></i><i></i><em>새로 추가된 네 패턴의 판정 기준</em></div>
 <pre><code><span class="w">  직사각형</span>  상단·하단이 모두 <span class="w">수평</span>
             → 고점끼리 x% 이내, 저점끼리 x% 이내
-
+<span class="c"> </span>
 <span class="w">  삼각형</span>    한쪽 또는 양쪽이 <span class="w">기울어짐</span>
             상승삼각형 = 상단 수평 + 하단 상승
             하락삼각형 = 상단 하락 + 하단 수평
             대칭삼각형 = 상단 하락 + 하단 상승
-
+<span class="c"> </span>
 <span class="w">  플래그</span>    급등·급락(깃대) 뒤 <span class="w">평행</span> 채널
             채널 방향은 깃대와 <span class="w">반대</span>
-
+<span class="c"> </span>
 <span class="w">  페넌트</span>    급등·급락(깃대) 뒤 <span class="w">수렴</span> 채널
             = 짧은 대칭삼각형 + 깃대
 <span class="c">  --------------------------------------------------</span>
@@ -150,12 +150,12 @@ LG전자를 첫 타자로 잡은 건 이 구간의 모양이 가장 단순해서
     6/30 고가 <span class="w">207,500</span>
     7/08 고가 <span class="w">206,000</span>
     7/13 고가 <span class="w">208,500</span>   → 3회 터치, 편차 1.21%
-
+<span class="c"> </span>
 <span class="w">  지지선 (하단)</span>
     7/07 저가 <span class="w">175,000</span>
     7/09 저가 <span class="w">175,400</span>
     7/14 저가 <span class="w">175,800</span>   → 3회 터치, 편차 0.46%
-
+<span class="c"> </span>
 <span class="c">  --------------------------------------------------</span>
 <span class="y">  박스 높이</span>   208,500 − 175,000 = <span class="y">33,500원</span> (19.14%)
 <span class="y">  지속 기간</span>   12 거래일
@@ -196,12 +196,12 @@ LG전자를 첫 타자로 잡은 건 이 구간의 모양이 가장 단순해서
 <div class="term-bar"><i></i><i></i><i></i><em>강세 플래그 조건 대조</em></div>
 <pre><code><span class="w">  깃대</span>      7/30 종가 148,000 → 8/05 종가 179,500
             4 거래일 <span class="g">+21.28%</span>              <span class="g">조건 충족</span>
-
+<span class="c"> </span>
 <span class="w">  되돌림</span>    8/06 저가 171,600 = 깃대의 <span class="g">25.1%</span>
             교과서 기준 50% 이내         <span class="g">조건 충족</span>
-
+<span class="c"> </span>
 <span class="w">  기간</span>      4 거래일 (8/06 ~ 8/11)       <span class="g">조건 충족</span>
-
+<span class="c"> </span>
 <span class="r">  채널 기울기</span>
     상단  181,200 → 187,700  <span class="r">우상향</span>
     하단  169,000 → 181,700  <span class="r">우상향</span>
@@ -226,7 +226,7 @@ LG전자를 첫 타자로 잡은 건 이 구간의 모양이 가장 단순해서
 <div class="term-bar"><i></i><i></i><i></i><em>약세 플래그 후보 ① — 6월 초</em></div>
 <pre><code><span class="w">  깃대</span>   6/02 종가 392,500 → 6/08 종가 268,000
          3 거래일 <span class="r">−31.72%</span>              <span class="g">깃대는 충분</span>
-
+<span class="c"> </span>
 <span class="w">  이후 8봉 채널</span>
     상단 기울기  <span class="r">−1.99%/봉</span>
     하단 기울기  <span class="r">−0.49%/봉</span>
@@ -240,7 +240,7 @@ LG전자를 첫 타자로 잡은 건 이 구간의 모양이 가장 단순해서
 <div class="term-bar"><i></i><i></i><i></i><em>약세 플래그 후보 ② — 7월 말</em></div>
 <pre><code><span class="w">  깃대</span>   7/23 종가 187,500 → 7/29 종가 150,500
          4 거래일 <span class="r">−19.73%</span>              <span class="g">깃대는 충분</span>
-
+<span class="c"> </span>
 <span class="w">  이후 되돌림 추이</span>
     +4봉  <span class="y">56.6%</span>   이미 50% 기준 초과
     +5봉  <span class="r">103.4%</span>  깃대를 전부 되돌림

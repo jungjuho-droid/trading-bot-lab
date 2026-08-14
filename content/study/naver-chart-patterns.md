@@ -126,7 +126,7 @@ LG전자도 최대 거래량일이 최고가일이었다. 삼성전자는 반대
 <pre><code><span class="w">  수평 저항</span>
     7/27 고가 <span class="w">234,500</span>
     8/05 고가 <span class="w">234,000</span>    편차 <span class="g">0.21%</span>
-
+<span class="c"> </span>
 <span class="w">  상승 지지</span>
     7/14 저가 <span class="w">181,100</span>
     7/30 저가 <span class="w">194,100</span>   <span class="g">+7.18%</span>
@@ -152,7 +152,7 @@ LG전자도 최대 거래량일이 최고가일이었다. 삼성전자는 반대
       두 봉우리 사이 골  7/30 저가 194,100 (−17.23%)
       넥라인 194,100 이탈 시 목표 = 194,100 − 40,150 = <span class="r">153,950</span>
       <span class="y">현재 상태: 넥라인 미이탈 → 미확정</span>
-
+<span class="c"> </span>
 <span class="g">  "상승 삼각형"</span>    → 상승 돌파 대기
       저항 234,000 돌파 시 목표 = <span class="g">286,900</span>
       <span class="y">현재 상태: 저항 미돌파 → 미확정</span>
@@ -239,11 +239,11 @@ NAVER는 저점이 많다. k=3 기준으로 스윙 저점이 8개 나왔고, 그
 <div class="term-bar"><i></i><i></i><i></i><em>강세 플래그 조건 대조</em></div>
 <pre><code><span class="w">  깃대</span>   7/14 종가 183,200 → 7/23 종가 220,000
          6 거래일 <span class="g">+20.09%</span>              <span class="g">조건 충족</span>
-
+<span class="c"> </span>
 <span class="w">  채널</span>   7/27 ~ 7/31 · 5 거래일
          상단 <span class="g">−1.12%/봉</span> · 하단 <span class="g">−0.86%/봉</span>
          깃대와 반대 방향(우하향)         <span class="g">조건 충족</span>
-
+<span class="c"> </span>
 <span class="r">  되돌림</span> 7/30 저가 194,100
          = 깃대의 <span class="r">58.6%</span>   50% 기준 초과   <span class="r">→ 실격</span>
 <span class="c">  --------------------------------------------------</span>

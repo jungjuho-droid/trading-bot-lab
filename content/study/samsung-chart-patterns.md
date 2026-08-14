@@ -106,11 +106,11 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <pre><code><span class="w">  깃대(flagpole)</span>
     7/15 고가 <span class="w">284,500</span> → 7/20 저가 <span class="r">240,000</span>
     3 거래일 만에 <span class="r">−15.6%</span>
-
+<span class="c"> </span>
 <span class="w">  깃발(flag)</span>
     7/21 종가 259,000 → 7/22 260,500 → 7/23 <span class="y">270,000</span>
     <span class="c">완만한 우상향 · 낙폭의 약 2/3 되돌림</span>
-
+<span class="c"> </span>
 <span class="w">  이탈</span>
     7/24 종가 <span class="r">249,500</span> → 7/28 <span class="r">220,000</span> → 7/29 저가 <span class="r">189,200</span>
 <span class="c">  --------------------------------------------------</span>
@@ -126,7 +126,7 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <pre><code>  깃대 구간   7/15  24,247,740
               7/16  26,605,500
               7/20  24,304,800     <span class="w">평균 25,052,680</span>
-
+<span class="c"> </span>
   깃발 구간   7/21  20,353,870
               7/22  21,248,990
               7/23  <span class="g">15,996,110</span>     <span class="w">평균 19,199,657</span>
@@ -189,7 +189,7 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <pre><code>  머리 깊이 = 넥라인 − 머리
             = 267,000 − 189,200
             = <span class="w">77,800</span>
-
+<span class="c"> </span>
   목표      = 넥라인 + 머리 깊이
             = 267,000 + 77,800
             = <span class="g">344,800</span>
@@ -214,7 +214,7 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <span class="c">  --------------------------------------------------</span>
   <span class="w">k=3</span>  6/11 · 6/23 · 7/02 · 7/20 · 7/29 · 8/11   <span class="g">6개</span>
        <span class="g">→ 7/20, 7/29, 8/11 이 잡힌다 (어깨·머리·어깨)</span>
-
+<span class="c"> </span>
   <span class="y">k를 키우면</span>  어깨가 사라진다
   <span class="y">k를 줄이면</span>  노이즈 저점이 어깨로 잡힌다
 <span class="c">  --------------------------------------------------</span>
@@ -238,7 +238,7 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <div class="term-bar"><i></i><i></i><i></i><em>강세 플래그 · 되돌림 비율 점검</em></div>
 <pre><code>  깃대   7/30 종가 207,000 → 7/31 종가 <span class="g">262,500</span>  (<span class="g">+26.81%</span>)
          깃대 폭 = 55,500
-
+<span class="c"> </span>
   깃발   8/03 종가 239,500 → 8/11 종가 <span class="y">230,000</span>
          8/11 저가 <span class="r">227,500</span>
 <span class="c">  --------------------------------------------------</span>
@@ -246,7 +246,7 @@ summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다
 <span class="c">  --------------------------------------------------</span>
 <span class="y">  교과서는 보통 38~50% 되돌림을 플래그로 본다</span>
 <span class="r">  63%면 "깃발" 보다 "조정" 에 가깝다 — 나는 △로 판정했다</span>
-
+<span class="c"> </span>
   돌파   8/12 종가 <span class="g">255,500</span> → 8/13 <span class="g">268,000</span> → 8/14 <span class="g">274,500</span></code></pre>
 </div>
 

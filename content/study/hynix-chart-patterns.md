@@ -114,7 +114,7 @@ summary: "교과서 목표치가 정확히 맞았다. 그리고 거기서 35% �
 <pre><code>  패턴 높이 = 두 번째 봉우리 − 넥라인
             = 2,987,000 − 2,453,000
             = <span class="w">534,000</span>
-
+<span class="c"> </span>
   목표      = 넥라인 − 패턴 높이
             = 2,453,000 − 534,000
             = <span class="g">1,919,000</span>
@@ -172,7 +172,7 @@ summary: "교과서 목표치가 정확히 맞았다. 그리고 거기서 35% �
 <pre><code><span class="r">  [ 지지선으로 본다 ]</span>
     "여기서 멈춘다" → 진입 근거로 사용
     <span class="r">틀리면 계좌가 직접 맞는다</span>
-
+<span class="c"> </span>
 <span class="g">  [ 참고 좌표로 본다 ]</span>
     "여기 근처에서 무슨 일이 있는지 본다"
     <span class="g">틀려도 아무것도 안 한 것과 같다</span>
@@ -356,7 +356,7 @@ summary: "교과서 목표치가 정확히 맞았다. 그리고 거기서 35% �
       <span class="c">→ 표본 1건 · 35% 오버슈팅 사례를 직접 봤다</span>
     엘리어트 파동 카운팅
       <span class="c">→ 끝나야 셀 수 있다</span>
-
+<span class="c"> </span>
 <span class="g">  ✔ 가져간다</span>
     거래량 급증일의 성격 관찰
       <span class="c">→ 이미 게이트로 있음 (통행 자격 심사용)</span>

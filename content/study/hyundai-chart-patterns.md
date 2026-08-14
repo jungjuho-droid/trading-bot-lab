@@ -94,7 +94,7 @@ summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 
 <div class="term-bar"><i></i><i></i><i></i><em>직사각형 구성 요소 (실측)</em></div>
 <pre><code><span class="w">  저항선</span>  7/01 고가 <span class="w">514,000</span>
           7/06 고가 <span class="w">513,000</span>    편차 0.19%
-
+<span class="c"> </span>
 <span class="w">  지지선</span>  6/26 저가 <span class="w">460,500</span>
           7/02 저가 <span class="w">457,000</span>
           7/07 저가 <span class="w">460,500</span>    편차 0.77%
@@ -124,7 +124,7 @@ summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 
     이후 4봉 되돌림  <span class="r">69.9%</span>   기준 50% 초과  <span class="r">→ 실격</span>
     채널 기울기      상단 −3.56%/봉 · 하단 −2.46%/봉
                     둘 다 하락 = 깃발이 아니라 하락 연장
-
+<span class="c"> </span>
 <span class="w">  후보 ②</span>  7/23 종가 432,000 → 7/29 종가 353,500
           4 거래일 <span class="r">−18.17%</span>
     +4봉 되돌림   <span class="r">74.7%</span>
@@ -151,7 +151,7 @@ summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 
     7/22 고가 <span class="w">433,000</span>
     7/23 고가 <span class="w">433,000</span>
     8/06 고가 <span class="w">415,000</span>    11봉에 <span class="r">−4.16%</span>
-
+<span class="c"> </span>
 <span class="w">  지지선 (수평)</span>
     7/21 저가 <span class="w">381,000</span>
     8/04 저가 <span class="w">376,000</span>
@@ -203,7 +203,7 @@ summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 
 <span class="r">  "이중 천장의 두 봉우리"</span>  → 하락 신호
       골(넥라인) 338,500 · 봉우리 평균 424,000 · 높이 85,500
       목표 = 338,500 − 85,500 = <span class="r">253,000</span>
-
+<span class="c"> </span>
 <span class="g">  "역 H&S의 넥라인 두 점"</span>  → 상승 신호
       넥라인 평균 424,000 · 머리 338,500
       목표 = 424,000 + 85,500 = <span class="g">509,500</span>
@@ -228,7 +228,7 @@ summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 
 <div class="term-bar"><i></i><i></i><i></i><em>강세 페넌트 구성 요소 (실측)</em></div>
 <pre><code><span class="w">  깃대</span>   7/30 종가 351,000 → 8/05 종가 404,500
          4 거래일 <span class="g">+15.24%</span>
-
+<span class="c"> </span>
 <span class="w">  페넌트</span> 8/06 ~ 8/12 · 5 거래일
     고점  415,000 → 413,000   <span class="w">하락</span>
     저점  390,000 → 400,500   <span class="w">상승</span>       <span class="g">→ 수렴 확인</span>

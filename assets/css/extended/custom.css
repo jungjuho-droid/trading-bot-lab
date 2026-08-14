@@ -197,3 +197,27 @@ input, textarea, button {
 #menu a {
     font-weight: 600;
 }
+
+/* ============================================================
+   지표 스터디 — 메인 코너 강조
+   ============================================================ */
+#menu a[href$="/study/"] {
+    color: var(--accent-gold);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+
+#menu a[href$="/study/"]::after {
+    content: "●";
+    font-size: 0.45em;
+    vertical-align: super;
+    margin-left: 3px;
+    color: var(--accent-cyan);
+}
+
+/* 홈 인트로 안의 스터디 링크 강조 */
+.home-info .entry-content a {
+    color: var(--accent-gold);
+    font-weight: 700;
+    box-shadow: 0 1px 0 var(--accent-gold);
+}

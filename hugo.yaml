@@ -70,12 +70,6 @@ params:
 
       버티는 쪽에 걸어보려고 합니다. 천천히, 자주 쓸게요.
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/"
-    - name: rss
-      url: "index.xml"
-
   editPost:
     URL: ""
     Text: ""

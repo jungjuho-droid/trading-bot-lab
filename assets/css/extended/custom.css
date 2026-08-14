@@ -7,39 +7,48 @@ input, textarea, button {
 }
 
 /* Color hierarchy: 3 tiers, 2 accent tones
-   Tier 1 (brand) = gold accent · Tier 2 (post titles) = default theme white
+   Tier 1 (brand) = gold accent · Tier 2 (post titles) = default theme color
    Tier 3 (section headings) = cyan accent · body = default muted gray */
 :root {
     --accent-gold: #e0a72e;
+    --accent-cyan: #2aa9a0;
+}
+
+.dark {
     --accent-cyan: #5eead4;
 }
 
-/* Site title / logo — Tier 1 */
-#box .header .logo a {
+/* ---------- Tier 1 : brand ---------- */
+.logo a,
+.header-nav .logo a {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: var(--accent-gold);
 }
 
-/* Home intro heading — Tier 1 */
-.home-info .entry-header h1 {
+.home-info .entry-header h1,
+.first-entry .entry-header h1 {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: var(--accent-gold);
 }
 
-/* Post / page titles */
+/* ---------- Tier 2 : post & page titles ---------- */
 .post-title,
 .entry-header h1,
-.page-header h1 {
+.entry-header h2,
+.page-header h1,
+.page-header .post-title {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
 }
 
-/* Section headings inside posts — Tier 3 */
+/* ---------- Tier 3 : section headings inside posts ---------- */
+.post-content h2,
+.post-content h3,
 .entry-content h2,
 .entry-content h3 {
     font-family: "Pretendard", sans-serif;
@@ -48,16 +57,33 @@ input, textarea, button {
     color: var(--accent-cyan);
 }
 
-/* Slightly tighter, calmer body copy */
+.post-content h2 {
+    font-size: 1.35rem;
+    margin-top: 2.1em;
+}
+
+.post-content h3 {
+    font-size: 1.15rem;
+}
+
+/* ---------- body copy ---------- */
+.post-content,
 .entry-content,
 .home-info .entry-content {
     font-weight: 400;
     letter-spacing: -0.003em;
-    line-height: 1.75;
+    line-height: 1.78;
 }
 
 .home-info .entry-content p {
     margin-bottom: 0.6em;
+}
+
+/* Pull-quote (트레이더 철학 한 줄) */
+.post-content blockquote {
+    border-inline-start: 3px solid var(--accent-gold);
+    font-style: normal;
+    opacity: 0.92;
 }
 
 /* Nav / menu labels — a touch bolder for a deck-like feel */

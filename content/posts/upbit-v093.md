@@ -1,0 +1,38 @@
+---
+title: "[개발일지] UP.V093 — UI 동기화와 타이머"
+description: "UP.V093 · Synced UI & Timer"
+date: 2026-06-03T15:15:00+09:00
+draft: false
+series: ["단일파일 진화기"]
+tags: ["개발일지", "단일파일진화기", "자동매매", "업비트", "슬롯구조", "Trading Bot Lab"]
+summary: "UI 동기화와 타이머. 단일파일 진화기 3/120."
+---
+
+## 배경
+
+이 글은 단일파일 진화기의 한 페이지, UPBIT.V093 의 기록이다. 한 파일 1,500줄짜리 모놀리스가 버전 번호를 바꿔가며 증식하던, 가장 왕성하고 가장 어지럽던 시기다. 파일이 기억하는 시각은 2026-06-03 15:15. 이 시리즈에 보존된 120개 버전 가운데 3번째 기록이다.
+
+<div class="term">
+<div class="term-bar"><i></i><i></i><i></i><em>upbit_v93_bot.py — 1,561줄</em></div>
+<pre><code><span class="r">- # 1. 전역 통계 관리자 (업비트 V92 규격)</span>
+<span class="r">- self.filename = "upbit_v92_trade_stats.json"</span>
+<span class="c">+ # 1. 전역 통계 관리자 (업비트 V93 규격)</span>
+<span class="c">+ # 3. 개별 코인 슬롯 (UI Bithumb V91 규격 통합 및 타이머 추가)</span>
+<span class="c">+ # [V93 패치] 업비트 고유 패널 배경색 적용 (다크 네이비 계열)</span>
+<span class="c">+ # [V93 패치] 타이머를 row=0에 배치, 기존 라벨은 row=1, 엔트리는 row=2로 이동</span>
+<span class="g">+ self.filename = "upbit_v93_trade_stats.json"</span>
+<span class="g">+ fallback_files = ["upbit_v92_trade_stats.json", "upbit_v91_trade_stats.json", "upbit_v9...</span>
+<span class="g">+ self.ci_blue = "#3b82f6"</span></code></pre>
+</div>
+
+## 무엇을 바꿨나
+
+코드는 1561줄. 직전 버전 대비 +53/-26줄 — 중간 수정이다. 파일 머리의 당시 메모: "-*- coding: utf-8 -*-". 커밋이 없던 시절이라 의도는 diff 로만 남았다. 이번 보존본의 무게중심은 **UI 동기화와 타이머**이다. 당시 주석이 의도를 증언한다 — "1. 전역 통계 관리자 (업비트 V93 규격)" / "3. 개별 코인 슬롯 (UI Bithumb V91 규격 통합 및 타이머 추가)"
+
+## 소회
+
+이때 매매 데이터를 체계적으로 안 남긴 게 지금도 아쉽다. 기록이 있었다면 절반의 실험은 안 해도 됐다. 파일 하나에 다 넣는 방식은 빨랐다. 대신 어디를 고치면 어디가 부서지는지 아무도 몰랐다 — 나조차도. 버전 번호가 백 단위로 뛰던 건 자신감이 아니라 시행착오의 개수였다. 다음 버전은 언제나 직전 버전이 남긴 질문에 대한 답이었고, 이 버전도 예외가 아니다.
+
+> 마크 미너비니는 손실을 작게 유지하는 것이 공격의 전제라고 했다. 방어 코드가 늘어날수록 진입은 오히려 과감해졌다.
+
+Developer: JH JEONG

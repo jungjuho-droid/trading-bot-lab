@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap');
+
+/* Site title / logo */
+#box .header .logo a {
+    font-family: "Noto Serif KR", serif;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+}
+
+/* Home intro heading */
+.home-info .entry-header h1 {
+    font-family: "Noto Serif KR", serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* Post / page titles */
+.post-title,
+.entry-header h1,
+.page-header h1 {
+    font-family: "Noto Serif KR", serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+/* Slightly tighter, calmer body copy */
+.entry-content,
+.home-info .entry-content {
+    letter-spacing: 0.001em;
+    line-height: 1.75;
+}
+
+.home-info .entry-content p {
+    margin-bottom: 0.6em;
+}

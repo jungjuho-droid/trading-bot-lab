@@ -1,6 +1,6 @@
 baseURL: "https://jungjuho-droid.github.io/trading-bot-lab/"
 defaultContentLanguage: "ko"
-title: "트레이딩 봇 랩"
+title: "Trading Bot Lab"
 theme: "PaperMod"
 paginate: 8
 
@@ -21,10 +21,10 @@ minify:
 
 params:
   env: production
-  title: "트레이딩 봇 랩"
-  description: "혼자 돌리는 트레이딩 봇을 몇백 번 고쳐가며 배운 것들. 가볍게, 자주 씁니다."
+  title: "Trading Bot Lab"
+  description: "혼자 돌리는 Trading Bot을 몇백 번 고쳐가며 배운 것들을 기록합니다."
   keywords: [Blog, Trading, Bot, Algorithm, 트레이딩, 알고리즘]
-  author: "대표님"
+  author: "JH"
   DateFormat: "2006.01.02"
   defaultTheme: auto
   disableThemeToggle: false
@@ -50,15 +50,17 @@ params:
     favicon: "/favicon.ico"
 
   label:
-    text: "트레이딩 봇 랩"
+    text: "Trading Bot Lab"
     icon: ""
     iconHeight: 35
 
   homeInfoParams:
-    Title: "안녕하세요 👋"
+    Title: "Trading Bot Lab"
     Content: >
-      혼자서 트레이딩 봇을 돌리면서 겪은 시행착오와 깨달음을 가볍게 기록하는 공간입니다.
-      보고서보다는 일기에 가깝게, 그날그날 배운 걸 씁니다.
+      혼자서 Trading Bot을 설계하고, 실패하고, 다시 고치는 과정을 기록하는 공간입니다.
+
+
+      <span style="font-size:0.82em; opacity:0.6; letter-spacing:0.01em;">A personal record of building, breaking, and rebuilding an algorithmic trading bot.</span>
 
   socialIcons:
     - name: github

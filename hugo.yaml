@@ -23,7 +23,7 @@ params:
   env: production
   title: "Trading Bot Lab"
   description: "혼자 돌리는 Trading Bot을 몇백 번 고쳐가며 배운 것들을 기록합니다."
-  keywords: [Blog, Trading, Bot, Algorithm, 트레이딩, 알고리즘]
+    keywords: [Trading, Bot, Algorithm, "Lab Notes", 트레이딩, 알고리즘]
   author: "JH"
   DateFormat: "2006.01.02"
   defaultTheme: auto

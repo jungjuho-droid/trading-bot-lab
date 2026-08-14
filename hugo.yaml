@@ -21,6 +21,7 @@ minify:
 
 params:
   env: production
+  mainSections: ["study", "posts"]
   title: "Trading Bot Lab"
   description: "혼자 돌리는 Trading Bot을 몇백 번 고쳐가며 배운 것들을 기록합니다."
   keywords: [Trading, Bot, Algorithm, "Lab Notes", 트레이딩, 알고리즘]
@@ -57,10 +58,14 @@ params:
   homeInfoParams:
     Title: "Trading Bot Lab"
     Content: >
-      혼자서 Trading Bot을 설계하고, 실패하고, 다시 고치는 과정을 기록하는 공간입니다.
+      이 랩의 메인은 **[지표 스터디](/trading-bot-lab/study/)** 입니다 — 매매 지표를 공식에서 코드로,
+      코드에서 실계좌의 게이트 값까지 해부합니다.
 
 
-      <span style="font-size:0.82em; opacity:0.6; letter-spacing:0.01em;">A personal record of building, breaking, and rebuilding an algorithmic trading bot.</span>
+      그 아래로는 자동매매 Bot 461개 버전의 개발 기록이 시대순으로 쌓여 있습니다.
+
+
+      <span style="font-size:0.82em; opacity:0.6; letter-spacing:0.01em;">INDICATOR STUDY is the main course here — formulas, then code, then a live account. The 461-version dev log is the archive beneath it.</span>
 
   socialIcons:
     - name: github
@@ -93,14 +98,14 @@ menu:
       name: 홈
       url: /
       weight: 10
+    - identifier: study
+      name: 지표 스터디
+      url: /study/
+      weight: 12
     - identifier: posts
       name: 글 목록
       url: /posts/
       weight: 20
-    - identifier: study
-      name: 지표 스터디
-      url: /study/
-      weight: 25
     - identifier: about
       name: 소개
       url: /about/

@@ -1,5 +1,5 @@
 ---
-title: "아룬 오실레이터 — 가격이 아니라 시간을 재는 지표"
+title: "아룬 오실레이터 — 가격이 아니라 시간을 재는 지표 | Crypto Trading Bot"
 description: "AROON · The Indicator That Measures Time, Not Price"
 date: 2026-08-14T20:40:00+09:00
 draft: false

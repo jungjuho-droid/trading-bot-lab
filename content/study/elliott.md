@@ -1,5 +1,5 @@
 ---
-title: "엘리엇 파동 — 봇에 넣을 수 없는 이론을 굳이 해부하는 이유"
+title: "엘리엇 파동 — 봇에 넣을 수 없는 이론을 굳이 해부하는 이유 | Crypto Trading Bot"
 description: "ELLIOTT WAVE · Dissecting the Theory a Bot Can't Quite Hold"
 date: 2026-08-14T19:59:00+09:00
 draft: false

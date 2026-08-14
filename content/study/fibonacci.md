@@ -1,5 +1,5 @@
 ---
-title: "피보나치 되돌림 — 0.618이라는 신화와 실용 사이"
+title: "피보나치 되돌림 — 0.618이라는 신화와 실용 사이 | Crypto Trading Bot"
 description: "FIBONACCI · Between the 0.618 Myth and Practical Use"
 date: 2026-08-14T19:57:00+09:00
 draft: false

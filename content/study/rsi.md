@@ -1,5 +1,5 @@
 ---
-title: "RSI — 교과서는 30, 내 봇은 45"
+title: "RSI — 교과서는 30, 내 봇은 45 | Crypto Trading Bot"
 description: "RSI · The Textbook Says 30, My Bot Says 45"
 date: 2026-08-14T18:00:00+09:00
 draft: false

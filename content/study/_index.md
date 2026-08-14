@@ -1,5 +1,5 @@
 ---
-title: "지표 스터디"
+title: "지표 스터디 — Crypto Trading Bot Indicators"
 description: "INDICATOR STUDY — 봇에 넣기 전에, 지표를 해부한다"
 ---
 

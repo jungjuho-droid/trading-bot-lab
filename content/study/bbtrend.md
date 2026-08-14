@@ -1,5 +1,5 @@
 ---
-title: "BBTrend — 볼린저 밴드 두 개를 겹쳐서 추세를 재는 법"
+title: "BBTrend — 볼린저 밴드 두 개를 겹쳐서 추세를 재는 법 | Crypto Trading Bot"
 description: "BBTREND · Two Bands, One Number"
 date: 2026-08-14T20:10:00+09:00
 draft: false

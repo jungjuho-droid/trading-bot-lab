@@ -7,8 +7,7 @@ input, textarea, button {
 }
 
 /* Color hierarchy: 3 tiers, 2 accent tones
-   Tier 1 (brand) = gold accent · Tier 2 (post titles) = default theme color
-   Tier 3 (section headings) = cyan accent · body = default muted gray */
+   Tier 1 (brand) = gold · Tier 2 (titles) = theme default · Tier 3 (h2/h3) = cyan */
 :root {
     --accent-gold: #e0a72e;
     --accent-cyan: #2aa9a0;
@@ -35,15 +34,32 @@ input, textarea, button {
     color: var(--accent-gold);
 }
 
-/* ---------- Tier 2 : post & page titles ---------- */
+/* ---------- Tier 2 : post & page titles (한글 크게) ---------- */
 .post-title,
 .entry-header h1,
 .entry-header h2,
-.page-header h1,
-.page-header .post-title {
+.page-header h1 {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
+    line-height: 1.28;
+}
+
+.post-single .post-title {
+    font-size: 2.15rem;
+}
+
+/* ---------- English subtitle under the Korean title (작게) ---------- */
+.post-description {
+    margin-top: 0.55em;
+    font-family: "Pretendard", sans-serif;
+    font-size: 0.83rem;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: var(--accent-gold);
+    opacity: 0.72;
 }
 
 /* ---------- Tier 3 : section headings inside posts ---------- */
@@ -58,12 +74,12 @@ input, textarea, button {
 }
 
 .post-content h2 {
-    font-size: 1.35rem;
+    font-size: 1.32rem;
     margin-top: 2.1em;
 }
 
 .post-content h3 {
-    font-size: 1.15rem;
+    font-size: 1.14rem;
 }
 
 /* ---------- body copy ---------- */
@@ -86,7 +102,92 @@ input, textarea, button {
     opacity: 0.92;
 }
 
-/* Nav / menu labels — a touch bolder for a deck-like feel */
+/* ============================================================
+   Terminal / window figure  —  <div class="term">
+   ============================================================ */
+.post-content .term {
+    margin: 1.9em 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #10131a;
+    border: 1px solid #262c38;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+}
+
+.post-content .term-bar {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 14px;
+    background: #1b202a;
+    border-bottom: 1px solid #262c38;
+}
+
+.post-content .term-bar i {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    flex: none;
+}
+
+.post-content .term-bar i:nth-child(1) { background: #ff5f57; }
+.post-content .term-bar i:nth-child(2) { background: #febc2e; }
+.post-content .term-bar i:nth-child(3) { background: #28c840; }
+
+.post-content .term-bar em {
+    margin-left: 9px;
+    font-style: normal;
+    font-size: 0.76rem;
+    letter-spacing: 0.01em;
+    color: #8b93a3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-content .term pre {
+    margin: 0;
+    padding: 15px 17px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow-x: auto;
+}
+
+.post-content .term pre code {
+    display: block;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    color: #c3cbd9;
+    font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", "Nanum Gothic Coding", monospace;
+    font-size: 0.795rem;
+    line-height: 1.72;
+    white-space: pre;
+}
+
+.post-content .term .c { color: #666e80; }
+.post-content .term .g { color: #4ade80; }
+.post-content .term .y { color: #fbbf24; }
+.post-content .term .r { color: #f87171; }
+.post-content .term .b { color: #5eead4; }
+.post-content .term .w { color: #eef2f8; font-weight: 600; }
+
+.post-content .term-cap {
+    margin: -1.2em 0 2.1em;
+    font-size: 0.79rem;
+    color: #8b93a3;
+    opacity: 0.85;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .post-content .term pre code { font-size: 0.7rem; }
+    .post-single .post-title { font-size: 1.72rem; }
+}
+
+/* Nav / menu labels */
 #menu a {
     font-weight: 600;
 }

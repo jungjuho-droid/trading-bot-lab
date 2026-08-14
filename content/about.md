@@ -1,5 +1,5 @@
 ---
-title: "소개"
+title: "소개 — About This Crypto Trading Bot Blog"
 description: "이 블로그와 저에 대해"
 url: "/about/"
 summary: "혼자 트레이딩 봇을 만들고 부수고 고치는 기록"

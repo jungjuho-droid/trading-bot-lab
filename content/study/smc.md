@@ -1,9 +1,9 @@
 ---
-title: "[지표 스터디] SMC 스마트 머니 컨셉 — BOS·CHoCH·오더블록을 봇의 언어로 번역한다"
+title: "SMC 스마트 머니 컨셉 — BOS·CHoCH·오더블록을 봇의 언어로 번역한다"
 description: "SMC · Smart Money Concepts, Translated into Bot Logic"
 date: 2026-08-14T19:40:00+09:00
 draft: false
-tags: ["지표스터디", "SMC", "스마트머니", "오더블록", "BOS", "CHoCH", "FVG", "시장구조", "PineScript", "자동매매", "Trading Bot Lab"]
+tags: ["지표스터디", "SMC", "스마트머니", "오더블록", "BOS", "CHoCH", "FVG", "시장구조", "PineScript", "자동매매"]
 summary: "LuxAlgo의 Smart Money Concepts 지표를 해부한다. 차트에 그림을 그리는 지표를, 판정을 내리는 봇으로 번역할 때 무엇이 남고 무엇이 부서지는가 — 시장 구조, 오더블록, FVG, 프리미엄/디스카운트까지."
 ---
 
@@ -129,5 +129,3 @@ SMC의 서사는 이렇다 — "큰돈(스마트 머니)은 흔적을 남긴다.
 > 리처드 와이코프는 백 년 전에 시장을 '컴포지트 맨' — 모든 큰손을 합친 가상의 단일 행위자 — 이 움직이는 것처럼 읽으라고 가르쳤다. SMC는 그 오래된 렌즈의 현대판이다. 렌즈는 세상을 보는 도구이지 세상 그 자체가 아니다. 렌즈를 믿기 전에, 렌즈로 본 것을 측정하라.
 
 <span style="font-size:0.78em; opacity:0.55;">참고: 이 글이 해부한 지표는 LuxAlgo의 Smart Money Concepts (CC BY-NC-SA 4.0)이다. 코드 전문은 라이선스와 지면을 존중해 싣지 않았으며, 본문의 판정식 설명은 공개 소스를 읽고 내 언어로 재서술한 것이다.</span>
-
-Developer: JH JEONG

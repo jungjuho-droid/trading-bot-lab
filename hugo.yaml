@@ -20,6 +20,11 @@ ignoreFiles:
   - "content/posts/vv[0-9]+\\.md$"
   - "content/posts/(ma|upbit|hy|base|macro|bithumb|engine|vvwap)-.*\\.md$"
   - "content/posts/bt-.*\\.md$"
+  # 초기 개발일지 10편은 3편의 긴 글로 통합했다. 원본은 저장소에만 남긴다.
+  - "content/posts/(the-memo-before-the-bot|first-615-lines|rolling-back-the-api)\\.md$"
+  - "content/posts/(scientific-notation-bug|no-mental-math|why-i-added-a-max-button|it-was-not-the-font)\\.md$"
+  - "content/posts/(where-dip-buying-began|the-version-that-changed-nothing|making-the-bot-talk-to-me)\\.md$"
+  - "content/posts/hello-world\\.md$"
 
 googleAnalytics: ""
 

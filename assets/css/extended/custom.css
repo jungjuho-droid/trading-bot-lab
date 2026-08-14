@@ -155,12 +155,18 @@ input, textarea, button {
     overflow-x: auto;
 }
 
+/* PaperMod sets `.md-content pre code { background: … !important }` and
+   `word-break: break-all`, which would repaint and mangle the figure — override both. */
 .post-content .term pre code {
-    display: block;
-    background: transparent;
-    padding: 0;
-    border: 0;
-    color: #c3cbd9;
+    display: block !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    color: #c3cbd9 !important;
     font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", "Nanum Gothic Coding", monospace;
     font-size: 0.795rem;
     line-height: 1.72;

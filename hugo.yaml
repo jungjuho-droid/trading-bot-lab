@@ -58,6 +58,10 @@ params:
   showtoc: false
   tocopen: false
 
+  analytics:
+    google:
+      SiteVerificationTag: "W_kannPfIUa4O-fPSJ_cv1reu2G0ZLdOLY_mmG1aXQI"
+
   assets:
     disableHLJS: true
     favicon: "/favicon.ico"

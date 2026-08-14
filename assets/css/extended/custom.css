@@ -1,146 +1,256 @@
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+/* ============================================================
+   Trading Bot Lab — 개인 개발 블로그
+   본문은 바탕체, 제목과 표지는 손글씨. 종이 위에 쓴 노트 느낌.
+   ============================================================ */
 
-/* Site-wide font: Pretendard — bold, geometric, presentation-deck feel */
-html, body,
-input, textarea, button {
-    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Pen+Script&family=Gaegu:wght@400;700&display=swap');
+
+:root {
+    --ink: #33302c;
+    --ink-soft: #6b6459;
+    --paper: #fbf8f1;
+    --paper-2: #f4efe4;
+    --rule: #e2d9c8;
+    --mark: #b4643a;      /* 밑줄·강조 — 붉은 색연필 */
+    --mark-soft: #d8a882;
 }
 
-/* Color hierarchy: 3 tiers, 2 accent tones
-   Tier 1 (brand) = gold · Tier 2 (titles) = theme default · Tier 3 (h2/h3) = cyan */
 :root {
-    --accent-gold: #e0a72e;
-    --accent-cyan: #2aa9a0;
+    --theme: var(--paper);
+    --entry: #fffdf8;
+    --primary: var(--ink);
+    --secondary: var(--ink-soft);
+    --tertiary: var(--paper-2);
+    --content: var(--ink);
+    --border: var(--rule);
 }
 
 .dark {
-    --accent-cyan: #5eead4;
+    --ink: #e6e0d4;
+    --ink-soft: #a49b8b;
+    --paper: #1e1c19;
+    --paper-2: #2a2723;
+    --rule: #3b362f;
+    --mark: #d99268;
+    --mark-soft: #8a6249;
+
+    --theme: var(--paper);
+    --entry: #24211d;
+    --primary: var(--ink);
+    --secondary: var(--ink-soft);
+    --tertiary: var(--paper-2);
+    --content: var(--ink);
+    --border: var(--rule);
 }
 
-/* ---------- Tier 1 : brand ---------- */
+html, body, input, textarea, button {
+    font-family: "Gowun Batang", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+}
+
+/* ---------- 사이트 제목: 손글씨 ---------- */
 .logo a,
 .header-nav .logo a {
-    font-family: "Pretendard", sans-serif;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: var(--accent-gold);
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.85rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: var(--ink);
 }
 
+.logo a:hover { color: var(--mark); }
+
+/* ---------- 메뉴 ---------- */
+#menu a {
+    font-family: "Gaegu", "Gowun Batang", cursive;
+    font-weight: 700;
+    font-size: 1.02rem;
+    color: var(--ink-soft);
+}
+
+#menu a:hover { color: var(--mark); }
+
+#menu .active,
+#menu a.active {
+    color: var(--ink);
+    box-shadow: 0 2px 0 var(--mark-soft);
+}
+
+/* ---------- 홈 인사말 ---------- */
 .home-info .entry-header h1,
 .first-entry .entry-header h1 {
-    font-family: "Pretendard", sans-serif;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    color: var(--accent-gold);
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    color: var(--ink);
 }
 
-/* ---------- Tier 2 : post & page titles (한글 크게) ---------- */
+.home-info .entry-content {
+    font-size: 1.02rem;
+    line-height: 1.95;
+    color: var(--ink);
+    opacity: 1;
+}
+
+.home-info .entry-content p { margin-bottom: 0.9em; }
+
+.home-info .entry-content a {
+    color: var(--mark);
+    box-shadow: 0 1px 0 var(--mark-soft);
+}
+
+/* ---------- 글 제목 ---------- */
 .post-title,
 .entry-header h1,
 .entry-header h2,
 .page-header h1 {
-    font-family: "Pretendard", sans-serif;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    line-height: 1.28;
-}
-
-.post-single .post-title {
-    font-size: 2.15rem;
-}
-
-/* ---------- English subtitle under the Korean title (작게) ---------- */
-.post-description {
-    margin-top: 0.55em;
-    font-family: "Pretendard", sans-serif;
-    font-size: 0.83rem;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: 0.055em;
-    text-transform: uppercase;
-    color: var(--accent-gold);
-    opacity: 0.72;
-}
-
-/* ---------- Tier 3 : section headings inside posts ---------- */
-.post-content h2,
-.post-content h3,
-.entry-content h2,
-.entry-content h3 {
-    font-family: "Pretendard", sans-serif;
+    font-family: "Gaegu", "Gowun Batang", cursive;
     font-weight: 700;
-    letter-spacing: -0.01em;
-    color: var(--accent-cyan);
+    letter-spacing: -0.005em;
+    line-height: 1.35;
+    color: var(--ink);
 }
+
+.post-single .post-title { font-size: 2.3rem; }
+
+.page-header h1 {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+/* 영문 부제 — 연필로 흘려 쓴 한 줄 */
+.post-description {
+    margin-top: 0.4em;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.12rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: var(--ink-soft);
+    opacity: 0.85;
+}
+
+.post-meta { color: var(--ink-soft); font-size: 0.85rem; }
+
+/* ---------- 목록 카드 ---------- */
+.post-entry {
+    background: var(--entry);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    box-shadow: none;
+    transition: border-color .15s ease;
+}
+
+.post-entry:hover { border-color: var(--mark-soft); }
+
+.post-entry .entry-hint { display: none; }
+
+.entry-header h2 { font-size: 1.4rem; }
+
+.entry-content {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* ---------- 본문 ---------- */
+.post-content {
+    font-size: 1.06rem;
+    line-height: 2.0;
+    letter-spacing: 0;
+    color: var(--ink);
+}
+
+.post-content p { margin: 1.4em 0; }
 
 .post-content h2 {
-    font-size: 1.32rem;
-    margin-top: 2.1em;
+    font-family: "Gaegu", cursive;
+    font-weight: 700;
+    font-size: 1.55rem;
+    margin-top: 2.4em;
+    margin-bottom: 0.7em;
+    color: var(--ink);
+    padding-bottom: 0.15em;
+    border-bottom: 1px dashed var(--rule);
 }
 
 .post-content h3 {
-    font-size: 1.14rem;
+    font-family: "Gaegu", cursive;
+    font-weight: 700;
+    font-size: 1.28rem;
+    color: var(--ink);
+    margin-top: 1.9em;
 }
 
-/* ---------- body copy ---------- */
-.post-content,
-.entry-content,
-.home-info .entry-content {
-    font-weight: 400;
-    letter-spacing: -0.003em;
-    line-height: 1.78;
+.post-content strong {
+    font-weight: 700;
+    color: var(--ink);
+    background: linear-gradient(transparent 62%, var(--mark-soft) 62%, var(--mark-soft) 88%, transparent 88%);
 }
 
-.home-info .entry-content p {
-    margin-bottom: 0.6em;
+.dark .post-content strong {
+    background: linear-gradient(transparent 62%, rgba(217,146,104,0.28) 62%, rgba(217,146,104,0.28) 88%, transparent 88%);
 }
 
-/* Pull-quote (트레이더 철학 한 줄) */
+.post-content a {
+    color: var(--mark);
+    box-shadow: 0 1px 0 var(--mark-soft);
+}
+
+.post-content ul, .post-content ol { margin: 1.2em 0; }
+.post-content li { margin: 0.5em 0; }
+
+/* 인용 — 여백에 적어둔 메모 */
 .post-content blockquote {
-    border-inline-start: 3px solid var(--accent-gold);
+    border-inline-start: 2px solid var(--mark-soft);
+    background: var(--paper-2);
+    padding: 0.9em 1.2em;
+    margin: 1.8em 0;
     font-style: normal;
-    opacity: 0.92;
+    color: var(--ink-soft);
+    border-radius: 0 3px 3px 0;
 }
 
-/* ============================================================
-   Terminal / window figure  —  <div class="term">
-   ============================================================ */
+.post-content blockquote p { margin: 0.3em 0; }
+
+/* ---------- 코드 메모 카드 (.term) ----------
+   예전 터미널 창 스타일 대신, 노트에 붙여둔 메모지 느낌으로 낮춘다 */
 .post-content .term {
     margin: 1.9em 0;
-    border-radius: 10px;
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--mark-soft);
+    border-radius: 2px;
+    background: var(--paper-2);
     overflow: hidden;
-    background: #10131a;
-    border: 1px solid #262c38;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.34);
+    box-shadow: none;
 }
+
+.dark .post-content .term { background: #191714; }
 
 .post-content .term-bar {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    padding: 9px 14px;
-    background: #1b202a;
-    border-bottom: 1px solid #262c38;
+    display: block;
+    padding: 7px 14px 5px;
+    background: transparent;
+    border-bottom: 1px dashed var(--rule);
 }
 
-.post-content .term-bar i {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    display: inline-block;
-    flex: none;
-}
-
-.post-content .term-bar i:nth-child(1) { background: #ff5f57; }
-.post-content .term-bar i:nth-child(2) { background: #febc2e; }
-.post-content .term-bar i:nth-child(3) { background: #28c840; }
+.post-content .term-bar i { display: none; }
 
 .post-content .term-bar em {
-    margin-left: 9px;
+    margin-left: 0;
+    font-family: "Gaegu", cursive;
     font-style: normal;
-    font-size: 0.76rem;
-    letter-spacing: 0.01em;
-    color: #8b93a3;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--ink-soft);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -148,15 +258,13 @@ input, textarea, button {
 
 .post-content .term pre {
     margin: 0;
-    padding: 15px 17px;
+    padding: 13px 16px;
     background: transparent;
     border: 0;
     border-radius: 0;
     overflow-x: auto;
 }
 
-/* PaperMod sets `.md-content pre code { background: … !important }` and
-   `word-break: break-all`, which would repaint and mangle the figure — override both. */
 .post-content .term pre code {
     display: block !important;
     background: transparent !important;
@@ -166,58 +274,97 @@ input, textarea, button {
     margin: 0 !important;
     word-break: normal !important;
     overflow-wrap: normal !important;
-    color: #c3cbd9 !important;
-    font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", "Nanum Gothic Coding", monospace;
-    font-size: 0.795rem;
-    line-height: 1.72;
+    color: var(--ink) !important;
+    font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", monospace;
+    font-size: 0.78rem;
+    line-height: 1.75;
     white-space: pre;
 }
 
-.post-content .term .c { color: #666e80; }
-.post-content .term .g { color: #4ade80; }
-.post-content .term .y { color: #fbbf24; }
-.post-content .term .r { color: #f87171; }
-.post-content .term .b { color: #5eead4; }
-.post-content .term .w { color: #eef2f8; font-weight: 600; }
+.post-content .term .c { color: var(--ink-soft); }
+.post-content .term .g { color: #5c7a52; }
+.post-content .term .y { color: #a97b2e; }
+.post-content .term .r { color: #b4553a; }
+.post-content .term .b { color: #47707d; }
+.post-content .term .w { color: var(--ink); font-weight: 700; }
 
-.post-content .term-cap {
-    margin: -1.2em 0 2.1em;
-    font-size: 0.79rem;
-    color: #8b93a3;
-    opacity: 0.85;
-    text-align: center;
+.dark .post-content .term .g { color: #8fb383; }
+.dark .post-content .term .y { color: #d4ab63; }
+.dark .post-content .term .r { color: #d98b73; }
+.dark .post-content .term .b { color: #7fb0bd; }
+
+/* 일반 코드블록 */
+.post-content pre {
+    background: var(--paper-2) !important;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
 }
 
-@media (max-width: 640px) {
-    .post-content .term pre code { font-size: 0.7rem; }
-    .post-single .post-title { font-size: 1.72rem; }
+.post-content code {
+    background: var(--paper-2);
+    color: var(--mark);
+    font-size: 0.85em;
+    padding: 2px 5px;
+    border-radius: 2px;
 }
 
-/* Nav / menu labels */
-#menu a {
-    font-weight: 600;
+/* ---------- 구분선 ---------- */
+.post-content hr {
+    border: 0;
+    border-top: 1px dashed var(--rule);
+    margin: 2.6em 0;
 }
 
-/* ============================================================
-   지표 스터디 — 메인 코너 강조
-   ============================================================ */
-#menu a[href$="/study/"] {
-    color: var(--accent-gold);
-    font-weight: 800;
-    letter-spacing: -0.01em;
+/* ---------- 푸터 ---------- */
+.footer {
+    color: var(--ink-soft);
+    font-size: 0.85rem;
+    border-top: 1px dashed var(--rule);
+    margin-top: 3rem;
+    padding-top: 1.4rem;
 }
 
-#menu a[href$="/study/"]::after {
-    content: "●";
-    font-size: 0.45em;
-    vertical-align: super;
-    margin-left: 3px;
-    color: var(--accent-cyan);
-}
+.footer a { color: var(--ink-soft); box-shadow: 0 1px 0 var(--rule); }
+.footer a:hover { color: var(--mark); }
 
-/* 홈 인트로 안의 스터디 링크 강조 */
-.home-info .entry-content a {
-    color: var(--accent-gold);
+/* ---------- 태그 ---------- */
+.post-tags a, .terms-tags a {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    color: var(--ink-soft);
+    font-family: "Gaegu", cursive;
     font-weight: 700;
-    box-shadow: 0 1px 0 var(--accent-gold);
+    box-shadow: none;
+}
+
+.post-tags a:hover, .terms-tags a:hover {
+    border-color: var(--mark-soft);
+    color: var(--mark);
+}
+
+/* ---------- 페이지네이션 · 목차 ---------- */
+.pagination .prev, .pagination .next {
+    background: var(--entry);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    color: var(--ink);
+    font-family: "Gaegu", cursive;
+    font-weight: 700;
+}
+
+.toc {
+    background: var(--paper-2);
+    border: 1px dashed var(--rule);
+    border-radius: 2px;
+}
+
+.toc .details { font-family: "Gaegu", cursive; font-weight: 700; }
+
+/* ---------- 반응형 ---------- */
+@media (max-width: 640px) {
+    .post-content { font-size: 1.01rem; line-height: 1.92; }
+    .post-single .post-title { font-size: 1.8rem; }
+    .post-content .term pre code { font-size: 0.69rem; }
+    .logo a, .header-nav .logo a { font-size: 1.6rem; }
 }

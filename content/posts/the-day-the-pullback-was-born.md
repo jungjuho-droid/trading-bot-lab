@@ -1,5 +1,5 @@
 ---
-title: "눌림목이 태어난 날, 그리고 봇이 말을 걸기 시작한 날"
+title: "눌림목이 태어난 날, 그리고 봇이 말을 걸기 시작한 날 | Crypto Trading Bot"
 description: "BT.V1.09–V1.15 · The Day the Pullback Was Born"
 date: 2026-05-28T19:07:00+09:00
 draft: false

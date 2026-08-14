@@ -1,5 +1,5 @@
 ---
-title: "3. 파일 하나에 다 넣던 시절 — 120개 버전"
+title: "3. 파일 하나에 다 넣던 시절 — 120개 버전 | Crypto Trading Bot"
 description: "1,500줄 모놀리스가 감당이 안 되기까지"
 date: 2026-07-01T21:00:00+09:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "개발 아카이브"
+title: "개발 아카이브 — Crypto Trading Bot Archive"
 description: "봇이 461번 바뀌는 동안 무슨 일이 있었나"
 ---
 

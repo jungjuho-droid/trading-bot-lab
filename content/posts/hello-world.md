@@ -1,6 +1,6 @@
 ---
 title: "LAB NOTES를 시작하며"
-date: 2026-08-14T09:00:00+09:00
+date: 2026-04-20T09:00:00+09:00
 draft: false
 tags: ["잡담"]
 summary: "일단 저지르고 나서 정리하는 성격이라, LAB NOTES도 이렇게 열게 됐습니다."

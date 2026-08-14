@@ -6,18 +6,28 @@ input, textarea, button {
     font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Site title / logo */
+/* Color hierarchy: 3 tiers, 2 accent tones
+   Tier 1 (brand) = gold accent · Tier 2 (post titles) = default theme white
+   Tier 3 (section headings) = cyan accent · body = default muted gray */
+:root {
+    --accent-gold: #e0a72e;
+    --accent-cyan: #5eead4;
+}
+
+/* Site title / logo — Tier 1 */
 #box .header .logo a {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
+    color: var(--accent-gold);
 }
 
-/* Home intro heading */
+/* Home intro heading — Tier 1 */
 .home-info .entry-header h1 {
     font-family: "Pretendard", sans-serif;
     font-weight: 800;
     letter-spacing: -0.02em;
+    color: var(--accent-gold);
 }
 
 /* Post / page titles */
@@ -29,12 +39,13 @@ input, textarea, button {
     letter-spacing: -0.02em;
 }
 
-/* Section headings inside posts */
+/* Section headings inside posts — Tier 3 */
 .entry-content h2,
 .entry-content h3 {
     font-family: "Pretendard", sans-serif;
     font-weight: 700;
     letter-spacing: -0.01em;
+    color: var(--accent-cyan);
 }
 
 /* Slightly tighter, calmer body copy */

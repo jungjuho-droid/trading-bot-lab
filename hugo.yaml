@@ -58,14 +58,16 @@ params:
   homeInfoParams:
     Title: "Trading Bot Lab"
     Content: >
-      이 랩의 메인은 **[지표 스터디](/trading-bot-lab/study/)** 입니다 — 매매 지표를 공식에서 코드로,
-      코드에서 실계좌의 게이트 값까지 해부합니다.
+      공식에서 코드로, 코드에서 실계좌 잔고까지. [지표](/trading-bot-lab/study/) 하나를 이 순서로 끝까지 팹니다.
 
 
-      그 아래로는 자동매매 Bot 461개 버전의 개발 기록이 시대순으로 쌓여 있습니다.
+      교과서는 RSI 30에서 사라던데, 제 봇은 45에서 삽니다. 그 숫자가 어디서 왔는지를 씁니다.
 
 
-      <span style="font-size:0.82em; opacity:0.6; letter-spacing:0.01em;">INDICATOR STUDY is the main course here — formulas, then code, then a live account. The 461-version dev log is the archive beneath it.</span>
+      백 일 남짓 동안 461번 고쳤어요. 하루 네 번꼴. 잘된 것만 남기면 기록이 아니라 광고라서, 말아먹은 버전도 안 지웠습니다.
+
+
+      <span style="font-size:0.82em; opacity:0.6; letter-spacing:0.01em;">Formulas → code → a live account. 461 versions, failures included.</span>
 
   socialIcons:
     - name: github

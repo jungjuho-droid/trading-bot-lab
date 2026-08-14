@@ -97,6 +97,10 @@ menu:
       name: 글 목록
       url: /posts/
       weight: 20
+    - identifier: study
+      name: 지표 스터디
+      url: /study/
+      weight: 25
     - identifier: about
       name: 소개
       url: /about/

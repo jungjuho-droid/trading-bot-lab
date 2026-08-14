@@ -1,4 +1,4 @@
-baseURL: "https://jungjuho-droid.github.io/trading-bot-lab/"
+baseURL: "https://botlab.co.kr/"
 defaultContentLanguage: "ko"
 title: "Trading Bot Lab"
 theme: "PaperMod"
@@ -85,7 +85,7 @@ params:
   footer:
     hideCopyright: false
     text: >
-      문의 jungjuho@gmail.com · [개인정보 처리방침](/trading-bot-lab/privacy/)
+      문의 jungjuho@gmail.com · [개인정보 처리방침](/privacy/)
 
 
       이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다.

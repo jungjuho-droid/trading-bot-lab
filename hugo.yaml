@@ -1,0 +1,130 @@
+baseURL: "https://example.com/"
+defaultContentLanguage: "ko"
+title: "트레이딩 봇 랩"
+theme: "PaperMod"
+paginate: 8
+
+languages:
+  ko:
+    label: "한국어"
+    locale: "ko-KR"
+    weight: 1
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+
+params:
+  env: production
+  title: "트레이딩 봇 랩"
+  description: "혼자 돌리는 트레이딩 봇을 몇백 번 고쳐가며 배운 것들. 가볍게, 자주 씁니다."
+  keywords: [Blog, Trading, Bot, Algorithm, 트레이딩, 알고리즘]
+  author: "대표님"
+  DateFormat: "2006.01.02"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+  label:
+    text: "트레이딩 봇 랩"
+    icon: ""
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "안녕하세요 👋"
+    Content: >
+      혼자서 트레이딩 봇을 돌리면서 겪은 시행착오와 깨달음을 가볍게 기록하는 공간입니다.
+      보고서보다는 일기에 가깝게, 그날그날 배운 걸 씁니다.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: rss
+      url: "index.xml"
+
+  editPost:
+    URL: ""
+    Text: ""
+    appendFilePath: false
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: home
+      name: 홈
+      url: /
+      weight: 10
+    - identifier: posts
+      name: 글 목록
+      url: /posts/
+      weight: 20
+    - identifier: about
+      name: 소개
+      url: /about/
+      weight: 30
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 40
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
+  series: series
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5

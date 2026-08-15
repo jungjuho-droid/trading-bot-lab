@@ -35,7 +35,7 @@ params:
   env: production
   mainSections: ["study", "posts", "archive"]
   title: "Trading Bot Lab"
-  description: "Crypto Trading Bot Dev Log — 혼자 크립토 트레이딩 봇(Crypto Trading Bot)을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
+  description: "Stock & Crypto Trading Bot Dev Log — 주식과 코인을 오가며 트레이딩 봇을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
   keywords: [crypto trading bot, trading bot, algorithmic trading, upbit bot, 크립토 트레이딩 봇, 트레이딩봇, 자동매매, 매매지표, RSI, 거래량, 업비트, 개발일지]
   author: "JH"
   DateFormat: "2006년 1월 2일"
@@ -73,7 +73,7 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Trading Bot Lab — Crypto Trading Bot Dev Log"
+    Title: "Trading Bot Lab — Stock & Crypto Trading Bot Dev Log"
     Content: >
       안녕하세요. 이 블로그는 혼자서 크립토 트레이딩 봇(Crypto Trading Bot)을 만들고, 부수고, 다시 고치는 과정을 기록하는 공간입니다.
 
@@ -123,29 +123,33 @@ params:
 menu:
   main:
     - identifier: home
-      name: 홈
+      name: Home
       url: /
       weight: 10
-    - identifier: study
-      name: 지표 스터디
-      url: /study/
+    - identifier: stock
+      name: Stock Study
+      url: /markets/stock/
       weight: 20
-    - identifier: posts
-      name: 개발일지
-      url: /posts/
+    - identifier: crypto
+      name: Crypto Study
+      url: /markets/crypto/
       weight: 30
-    - identifier: archive
-      name: 개발 아카이브
-      url: /archive/
+    - identifier: posts
+      name: Dev Log
+      url: /posts/
       weight: 40
-    - identifier: about
-      name: 소개
-      url: /about/
+    - identifier: archive
+      name: Archive
+      url: /archive/
       weight: 50
-    - identifier: search
-      name: 검색
-      url: /search/
+    - identifier: about
+      name: About
+      url: /about/
       weight: 60
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 70
 
 outputs:
   home:
@@ -156,6 +160,7 @@ outputs:
 taxonomies:
   tag: tags
   series: series
+  market: markets
 
 markup:
   highlight:

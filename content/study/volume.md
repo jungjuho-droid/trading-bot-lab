@@ -1,9 +1,10 @@
 ---
-title: "Volume — 가격은 의견이고, 거래량은 지불이다 | Crypto Trading Bot"
+title: "Volume: Price Is an Opinion, Volume Is a Payment"
 description: "VOLUME · Price Is an Opinion, Volume Is a Payment"
 date: 2026-08-14T19:55:00+09:00
 draft: false
-tags: ["지표스터디", "거래량", "거래대금", "유동성", "게이트설계", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "가장 오래된 지표이자 가장 오해받는 지표. 절대 거래대금과 상대 배수의 차이, 내 봇에서 거래량 게이트가 두 번 죽고 한 번 부활한 실측의 역사, 그리고 저유동성의 진짜 비용까지."
 ---
 

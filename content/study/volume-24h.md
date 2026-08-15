@@ -1,9 +1,10 @@
 ---
-title: "24h Trading Value — 살 수 있는 종목인지 먼저 묻는다 | Crypto Trading Bot"
+title: "24h Trading Value: Asking First Whether a Coin Is Even Tradable"
 description: "24H VOLUME · Can I Actually Trade This?"
 date: 2026-08-14T20:30:00+09:00
 draft: false
-tags: ["지표스터디", "거래대금", "유동성", "유니버스", "호가", "슬리피지", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매"]
+markets: ["crypto"]
 summary: "이건 신호 지표가 아니라 입장권 심사다. 24시간이라는 창을 왜 쓰는지, 그리고 이 숫자가 언제 거짓말하는지."
 ---
 

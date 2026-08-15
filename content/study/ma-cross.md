@@ -1,9 +1,10 @@
 ---
-title: "MA Cross — 내 봇이 처음 배운 규칙, 그리고 제일 먼저 버린 규칙 | Crypto Trading Bot"
+title: "MA Cross: The First Rule My Bot Learned, and the First One It Dropped"
 description: "MA CROSS · The First Rule My Bot Learned, and the First It Dropped"
 date: 2026-08-14T20:20:00+09:00
 draft: false
-tags: ["지표스터디", "이동평균", "골든크로스", "MA", "추세추종", "휩쏘", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "골든크로스는 교차한 순간이 아니라 이미 오른 뒤에 뜬다. 그 지연을 숫자로 따져본다."
 ---
 

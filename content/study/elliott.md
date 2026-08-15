@@ -1,9 +1,10 @@
 ---
-title: "Elliott Wave — 봇에 넣을 수 없는 이론을 굳이 해부하는 이유 | Crypto Trading Bot"
+title: "Elliott Wave: Why Dissect a Theory You Cannot Put in a Bot"
 description: "ELLIOTT WAVE · Dissecting the Theory a Bot Can't Quite Hold"
 date: 2026-08-14T19:59:00+09:00
 draft: false
-tags: ["지표스터디", "엘리엇파동", "파동이론", "시장구조", "반증가능성", "ZigZag", "피보나치", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매"]
+markets: ["crypto"]
 summary: "5-3 파동, 3대 절대 규칙, 그리고 카운팅의 조합 폭발. 사람의 눈에는 어디에나 보이고 봇의 코드에는 절반만 담기는 이론 — 그 절반이 무엇이고 왜 그 절반만으로도 가치가 있는지."
 ---
 

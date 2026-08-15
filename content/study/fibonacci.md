@@ -1,9 +1,10 @@
 ---
-title: "Fibonacci Retracement — 0.618이라는 신화와 실용 사이 | Crypto Trading Bot"
+title: "Fibonacci Retracement: Between the Myth of 0.618 and Actual Use"
 description: "FIBONACCI · Between the 0.618 Myth and Practical Use"
 date: 2026-08-14T19:57:00+09:00
 draft: false
-tags: ["지표스터디", "피보나치", "되돌림", "황금비", "눌림목", "스윙", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "토끼 번식 문제에서 나온 수열이 어쩌다 차트의 표준이 됐나. 되돌림 레벨의 실제 계산, 스윙 선택이라는 숨은 자의성, 자기실현 예언 논쟁, 그리고 대조군 없는 백테스트의 착시까지."
 ---
 

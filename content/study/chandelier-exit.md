@@ -1,9 +1,10 @@
 ---
-title: "Chandelier Exit — 천장에 매달아 놓고 따라 올리는 손절선 | Crypto Trading Bot"
+title: "Chandelier Exit: A Stop Hung From the Ceiling and Dragged Upward"
 description: "CHANDELIER EXIT · A Stop That Hangs From the Ceiling"
 date: 2026-08-14T21:00:00+09:00
 draft: false
-tags: ["지표스터디", "ChandelierExit", "ATR", "트레일링스톱", "손절", "청산", "리스크관리", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매"]
+markets: ["crypto"]
 summary: "진입가가 아니라 고점에서 손절선을 내려 긋는다. 내 봇의 본전 사수와 무엇이 다른지 붙여봤다."
 ---
 

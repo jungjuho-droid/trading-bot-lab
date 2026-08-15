@@ -1,9 +1,10 @@
 ---
-title: "RSI Divergence Oscillator — 파인스크립트 한 장으로 봇 한 대를 조립한다 | Crypto Trading Bot"
+title: "RSI Divergence Oscillator: Building a Bot From a Single Pine Script"
 description: "RSI DIVERGENCE · From One Pine Script to a Working Trading Bot"
 date: 2026-08-14T19:00:00+09:00
 draft: false
-tags: ["지표스터디", "RSI", "다이버전스", "오실레이터", "PineScript", "파이썬", "봇설계", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "빠른 RSI(5)에서 느린 RSI(14)를 뺀 오실레이터. 트레이딩뷰 지표 한 장을 받아서, 신호 설계 → 파이썬 이식 → 게이트 → 집행 → 검증까지 — 봇 한 대가 되기까지의 전 공정을 기록한다."
 ---
 

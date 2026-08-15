@@ -1,9 +1,10 @@
 ---
-title: "Chart Patterns — SK하이닉스 이중 천장과 계측 목표의 배신 | Crypto Trading Bot"
+title: "Chart Patterns: SK Hynix's Double Top and the Measured Target That Failed"
 description: "Chart Patterns on SK Hynix · 2026-06-02 ~ 2026-08-14"
 date: 2026-08-14T22:00:00+09:00
 draft: false
-tags: ["지표스터디", "차트패턴", "SK하이닉스", "이중천장", "헤드앤숄더", "플래그", "반도체", "코스피", "자동매매"]
+tags: ["지표스터디", "차트패턴", "코스피", "자동매매", "반도체", "SK하이닉스"]
+markets: ["stock"]
 summary: "교과서 목표치가 정확히 맞았다. 그리고 거기서 35% 더 빠졌다. 패턴을 믿으면 안 되는 이유를 실측으로 남긴다."
 ---
 

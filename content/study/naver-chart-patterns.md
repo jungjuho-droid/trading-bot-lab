@@ -1,9 +1,10 @@
 ---
-title: "Chart Patterns — NAVER, 같은 선이 팔라고도 하고 사라고도 한다 | Crypto Trading Bot"
+title: "Chart Patterns: At NAVER the Same Line Says Both Buy and Sell"
 description: "Chart Patterns on NAVER · 2026-05-13 ~ 2026-08-14"
 date: 2026-08-15T00:30:00+09:00
 draft: false
-tags: ["지표스터디", "차트패턴", "NAVER", "상승삼각형", "이중천장", "대칭삼각형", "코스피", "자동매매"]
+tags: ["지표스터디", "차트패턴", "코스피", "자동매매", "플랫폼", "NAVER"]
+markets: ["stock"]
 summary: "234,500과 234,000. 0.21% 차이 나는 두 고점이 이중 천장의 봉우리이자 상승 삼각형의 저항선이다."
 ---
 

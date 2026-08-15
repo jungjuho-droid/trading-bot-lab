@@ -1,9 +1,10 @@
 ---
-title: "SMC (Smart Money Concepts) — BOS·CHoCH·오더블록을 봇의 언어로 번역한다 | Crypto Trading Bot"
+title: "SMC (Smart Money Concepts): Translating BOS, CHoCH and Order Blocks Into Bot Logic"
 description: "SMC · Smart Money Concepts, Translated into Bot Logic"
 date: 2026-08-14T19:40:00+09:00
 draft: false
-tags: ["지표스터디", "SMC", "스마트머니", "오더블록", "BOS", "CHoCH", "FVG", "시장구조", "PineScript", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매"]
+markets: ["crypto"]
 summary: "LuxAlgo의 Smart Money Concepts 지표를 해부한다. 차트에 그림을 그리는 지표를, 판정을 내리는 봇으로 번역할 때 무엇이 남고 무엇이 부서지는가 — 시장 구조, 오더블록, FVG, 프리미엄/디스카운트까지."
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "Auto Key Levels — 지지선을 손으로 긋지 않기로 했다 | Crypto Trading Bot"
+title: "Auto Key Levels: I Stopped Drawing Support Lines by Hand"
 description: "AUTO KEY LEVELS · Letting the Code Draw the Lines"
 date: 2026-08-14T20:50:00+09:00
 draft: false
-tags: ["지표스터디", "지지저항", "키레벨", "피벗", "유동성", "자동화", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "사람이 긋는 선은 재현이 안 된다. 그걸 코드로 옮기면 무엇이 남고 무엇이 사라지는지."
 ---
 

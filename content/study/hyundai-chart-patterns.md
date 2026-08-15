@@ -1,9 +1,10 @@
 ---
-title: "Chart Patterns — 현대차, 같은 12거래일에 이름 네 개가 붙었다 | Crypto Trading Bot"
+title: "Chart Patterns: Four Names for the Same 12 Sessions at Hyundai Motor"
 description: "Chart Patterns on Hyundai Motor · 2026-05-28 ~ 2026-08-14"
 date: 2026-08-15T00:20:00+09:00
 draft: false
-tags: ["지표스터디", "차트패턴", "현대차", "하락삼각형", "페넌트", "역헤드앤숄더", "코스피", "자동매매"]
+tags: ["지표스터디", "차트패턴", "코스피", "자동매매", "자동차", "현대차"]
+markets: ["stock"]
 summary: "하락 삼각형이자 강세 페넌트이자 이중 천장이자 역 헤드 앤 숄더. 넷이 가리키는 방향이 서로 달랐다."
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "Aroon Oscillator — 가격이 아니라 시간을 재는 지표 | Crypto Trading Bot"
+title: "Aroon Oscillator: The Indicator That Measures Time, Not Price"
 description: "AROON · The Indicator That Measures Time, Not Price"
 date: 2026-08-14T20:40:00+09:00
 draft: false
-tags: ["지표스터디", "Aroon", "오실레이터", "추세", "시간", "박스권", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "얼마나 올랐나가 아니라 마지막 고점이 며칠 전이었나를 묻는다. 이 각도가 왜 특이한지."
 ---
 

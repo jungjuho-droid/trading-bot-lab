@@ -1,9 +1,10 @@
 ---
-title: "Chart Patterns — LG전자, 패턴이 하나뿐이었고 그 하나가 소름 끼치게 맞았다 | Crypto Trading Bot"
+title: "Chart Patterns: LG Electronics Had Only One Pattern, and It Was Eerily Right"
 description: "Chart Patterns on LG Electronics · 2026-06-01 ~ 2026-08-14"
 date: 2026-08-15T00:10:00+09:00
 draft: false
-tags: ["지표스터디", "차트패턴", "LG전자", "직사각형", "박스권", "계측목표", "코스피", "자동매매"]
+tags: ["지표스터디", "차트패턴", "코스피", "자동매매", "전자", "LG전자"]
+markets: ["stock"]
 summary: "열세 개 패턴 중 성립한 건 하나. 그런데 그 하나의 계측 목표가 실제 저점과 400원 차이였다."
 ---
 

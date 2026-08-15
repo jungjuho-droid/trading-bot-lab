@@ -1,9 +1,10 @@
 ---
-title: "BBTrend — 볼린저 밴드 두 개를 겹쳐서 추세를 재는 법 | Crypto Trading Bot"
+title: "BBTrend: Reading Trend by Stacking Two Bollinger Bands"
 description: "BBTREND · Two Bands, One Number"
 date: 2026-08-14T20:10:00+09:00
 draft: false
-tags: ["지표스터디", "BBTrend", "볼린저밴드", "추세", "변동성", "봇설계", "백테스트", "자동매매"]
+tags: ["지표스터디", "기술적지표", "자동매매", "백테스트"]
+markets: ["crypto"]
 summary: "볼린저 밴드를 만든 사람이 40년 뒤에 직접 내놓은 후속작. 밴드 두 개의 어긋남을 숫자 하나로 압축한다."
 ---
 

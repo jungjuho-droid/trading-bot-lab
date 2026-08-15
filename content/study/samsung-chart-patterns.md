@@ -1,9 +1,10 @@
 ---
-title: "Chart Patterns — 삼성전자 반토막과 역 헤드 앤 숄더 | Crypto Trading Bot"
+title: "Chart Patterns: Samsung Electronics' 50% Drop and an Inverse Head and Shoulders"
 description: "Chart Patterns on Samsung Electronics · 2026-06-05 ~ 2026-08-14"
 date: 2026-08-14T21:00:00+09:00
 draft: false
-tags: ["지표스터디", "차트패턴", "삼성전자", "헤드앤숄더", "플래그", "이중바닥", "반도체", "코스피", "자동매매"]
+tags: ["지표스터디", "차트패턴", "코스피", "자동매매", "반도체", "삼성전자"]
+markets: ["stock"]
 summary: "교과서 패턴 아홉 개를 삼성전자 실제 일봉에 대봤다. 성립한 건 셋, 안 되는 건 안 된다고 적었다."
 ---
 

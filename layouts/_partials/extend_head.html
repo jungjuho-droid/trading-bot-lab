@@ -7,7 +7,8 @@
      콘텐츠를 사용한 화면"에 광고 게재를 금지한다.
      → 이런 화면에는 광고를 넣지 않고, 색인도 막는다.
      ──────────────────────────────────────────────────────────── */}}
-{{- $thin := or (eq .Kind "term") (eq .Kind "taxonomy") (eq .Layout "search") -}}
+{{- $market := eq (index (split .RelPermalink "/") 1) "markets" -}}
+{{- $thin := and (not $market) (or (eq .Kind "term") (eq .Kind "taxonomy") (eq .Layout "search")) -}}
 {{- if $thin -}}
 <meta name="googlebot" content="noindex, follow">
 <meta name="robots" content="noindex, follow">

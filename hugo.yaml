@@ -41,7 +41,8 @@ params:
   DateFormat: "2006년 1월 2일"
   defaultTheme: auto
   disableThemeToggle: false
-  ShowShareButtons: false
+  ShowShareButtons: true
+  ShareButtons: ["naver", "x", "linkedin", "telegram"]
   ShowReadingTime: true
   displayFullLangName: true
   ShowPostNavLinks: true

@@ -1,9 +1,9 @@
 ---
-title: "4. 전략 네 개를 동시에 돌려봤습니다 | Crypto Trading Bot"
+title: "4. Running Four Strategies at Once"
 description: "하이브리드·BASE·MACRO, 그리고 빗썸으로 돌아간 갈래"
 date: 2026-07-15T21:00:00+09:00
 draft: false
-tags: ["개발아카이브", "전략실험", "백테스트", "포트폴리오", "레짐", "BASE", "MACRO", "자동매매"]
+tags: ["개발아카이브", "자동매매", "백테스트"]
 summary: "하나를 계속 고치는 대신 여러 개를 만들어 경쟁시켰던 시기. 결론은 예상과 달랐습니다."
 ---
 

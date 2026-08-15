@@ -1,9 +1,9 @@
 ---
-title: "1. 빗썸에서 시작했다 — 열흘, 95개 버전 | Crypto Trading Bot"
+title: "1. It Started on Bithumb: Ten Days, 95 Versions"
 description: "윈도우 tkinter 창에서 단타를 돌리던 시절"
 date: 2026-06-03T21:00:00+09:00
 draft: false
-tags: ["개발아카이브", "빗썸", "tkinter", "윈도우", "단타", "수수료", "슬롯", "RSI", "자동매매"]
+tags: ["개발아카이브", "자동매매", "빗썸"]
 summary: "장기투자 계좌에 손이 자꾸 가는 게 싫어서 규칙을 코드로 박은 게 시작이었습니다. 2026년 5월 25일부터 6월 3일까지 열흘간의 기록."
 ---
 

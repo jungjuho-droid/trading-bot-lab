@@ -1,9 +1,9 @@
 ---
-title: "3. 파일 하나에 다 넣던 시절 — 120개 버전 | Crypto Trading Bot"
+title: "3. When Everything Lived in One File: 120 Versions"
 description: "1,500줄 모놀리스가 감당이 안 되기까지"
 date: 2026-07-01T21:00:00+09:00
 draft: false
-tags: ["개발아카이브", "모놀리스", "리팩터링", "기술부채", "게이트", "랭킹", "스캔로그", "업비트", "자동매매"]
+tags: ["개발아카이브", "자동매매", "업비트"]
 summary: "버전 번호가 백 단위로 뛰던 시기. 빨랐고, 그만큼 어디를 고치면 어디가 부서지는지 아무도 몰랐습니다."
 ---
 

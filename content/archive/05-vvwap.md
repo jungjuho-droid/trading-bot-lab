@@ -1,9 +1,9 @@
 ---
-title: "5. VV라는 이름이 생긴 곳 | Crypto Trading Bot"
+title: "5. Where the Name VV Came From"
 description: "앵커드 VWAP, 그리고 완성하지 못한 C++ 포팅"
 date: 2026-07-24T21:00:00+09:00
 draft: false
-tags: ["개발아카이브", "VWAP", "거래량가중평균", "Cpp", "레짐", "조기최적화", "완성봉", "자동매매"]
+tags: ["개발아카이브", "자동매매", "백테스트"]
 summary: "지금 봇 이름 앞에 붙은 VV는 VWAP에서 왔습니다. 정작 그 지표는 지금 안 쓰는데도요."
 ---
 

@@ -1,9 +1,9 @@
 ---
-title: "6. 지금의 봇 — 모듈로 쪼개고, 숫자로 정하기 시작한 뒤 | Crypto Trading Bot"
+title: "6. The Bot Today: After Splitting Into Modules and Deciding by Numbers"
 description: "검증 없이 배포 없다는 규칙이 생긴 시기"
 date: 2026-08-13T23:00:00+09:00
 draft: false
-tags: ["개발아카이브", "모듈화", "git", "검증", "눌림목", "리스크관리", "원장대조", "손절", "자동매매"]
+tags: ["개발아카이브", "자동매매", "백테스트"]
 summary: "커밋마다 근거 수치를 남기기 시작하면서 개발이 달라졌습니다. 과거의 나와 논쟁할 수 있게 됐거든요."
 ---
 

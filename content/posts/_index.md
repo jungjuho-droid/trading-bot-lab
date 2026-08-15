@@ -1,5 +1,5 @@
 ---
-title: "개발일지 — Crypto Trading Bot Dev Log"
+title: "Dev Log"
 description: "업비트 크립토 트레이딩 봇 개발일지 — 461개 버전을 거치며 무엇을 고쳤고 무엇이 깨졌는지의 기록. 파이썬 자동매매, 백테스트, 리스크 관리, 실계좌 운용. A crypto trading bot development log covering Python automation, backtesting and risk management."
 ---
 

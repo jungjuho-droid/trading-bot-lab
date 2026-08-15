@@ -1,10 +1,10 @@
 ---
-title: "메모 한 장에서 615줄까지 — 봇이 태어난 이틀 | Crypto Trading Bot"
+title: "From One Note to 615 Lines: The Two Days the Bot Was Born"
 description: "BT.V1.04–V1.05 · From a Note to 615 Lines"
 date: 2026-05-25T09:00:00+09:00
 draft: false
 series: ["빗썸 기원기"]
-tags: ["개발일지", "빗썸기원기", "빗썸", "윈도우", "tkinter", "HMAC", "API인증", "pybithumb", "요구사항", "트레일링스톱", "자동매매"]
+tags: ["개발일지", "자동매매", "빗썸"]
 summary: "아카이브에서 가장 오래된 파일은 코드가 아니라 메모였다. 그 메모가 615줄이 되고, 34분 만에 심장을 갈아끼우기까지."
 ---
 

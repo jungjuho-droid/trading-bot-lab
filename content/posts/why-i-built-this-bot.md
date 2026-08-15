@@ -1,8 +1,8 @@
 ---
-title: "감정을 지워버린 트레이더 | Crypto Trading Bot"
+title: "The Trader With the Emotions Deleted"
 date: 2026-04-20T10:00:00+09:00
 draft: false
-tags: ["개발기", "철학", "트레이딩심리", "자동매매", "알고리즘트레이딩", "업비트", "빗썸", "눌림목전략", "리스크관리"]
+tags: ["개발일지", "자동매매", "빗썸", "업비트"]
 summary: "왜 이 Bot을 만들게 됐는가 — 바쁜 삶, 심리 게임, 그리고 EC2에서 맥북까지."
 ---
 

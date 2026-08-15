@@ -1,10 +1,10 @@
 ---
-title: "주문이 나가지 않는다 — 숫자와 사람 사이의 버그들 | Crypto Trading Bot"
+title: "The Orders That Never Went Out: Bugs Between Numbers and People"
 description: "BT.V1.07–V1.14 · The Orders That Never Went Out"
 date: 2026-05-26T22:05:00+09:00
 draft: false
 series: ["빗썸 기원기"]
-tags: ["개발일지", "빗썸기원기", "빗썸", "부동소수점", "지수표기", "주문수량", "UI설계", "휴먼에러", "tkinter", "폰트", "아카이브", "버그픽스", "자동매매"]
+tags: ["개발일지", "자동매매", "빗썸"]
 summary: "지수 표기 하나로 주문이 죽고, 암산 한 번으로 자릿수가 틀린다. 사흘 동안 사람이 숫자를 직접 치는 자리를 하나씩 지웠다."
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "눌림목이 태어난 날, 그리고 봇이 말을 걸기 시작한 날 | Crypto Trading Bot"
+title: "The Day the Pullback Strategy Was Born, and the Day the Bot Started Talking Back"
 description: "BT.V1.09–V1.15 · The Day the Pullback Was Born"
 date: 2026-05-28T19:07:00+09:00
 draft: false
 series: ["빗썸 기원기"]
-tags: ["개발일지", "빗썸기원기", "눌림목전략", "진입타점", "손절", "트레일링스톱", "형상관리", "백업", "알림", "OAuth", "모니터링", "빗썸", "자동매매"]
+tags: ["개발일지", "자동매매", "빗썸"]
 summary: "지금 사지 말고 0.5% 더 빠지면 사라 — 현행 전략의 첫 조상이 태어난 날. 그리고 한 줄도 안 바뀐 버전, 봇이 알림을 보내기 시작한 밤까지."
 ---
 

@@ -1,7 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{- range .Pages }}
-  {{- if not (or (eq .Kind "term") (eq .Kind "taxonomy") (eq .Layout "search")) }}
+  {{- if not (or (and (or (eq .Kind "term") (eq .Kind "taxonomy")) (ne .Section "markets")) (eq .Layout "search")) }}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- if not .Lastmod.IsZero }}

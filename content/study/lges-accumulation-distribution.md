@@ -1,5 +1,5 @@
 ---
-title: "Accumulation/Distribution — LG Energy Solution, Volume Flow Through a 14% Pullback | Crypto Trading Bot"
+title: "Accumulation/Distribution: LG Energy Solution, Volume Flow Through a 14% Pullback"
 description: "LG에너지솔루션 50거래일 구간에서 Accumulation/Distribution 라인을 직접 계산해 이차전지 대형주의 가격 하락과 누적 거래대금 흐름을 대조했다. Computing the Accumulation/Distribution line for KOSPI battery maker LG Energy Solution across a 50-day pullback and rebound."
 date: 2026-08-16T09:00:00+09:00
 draft: false

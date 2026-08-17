@@ -1,123 +1,134 @@
 /* ============================================================
-   Trading Bot Lab — 개인 개발 블로그
-   본문은 바탕체, 제목과 표지는 손글씨. 종이 위에 쓴 노트 느낌.
-   ============================================================ */
+Trading Bot Lab — 개인 개발 블로그
+본문은 바탕체, 제목과 표지는 손글씨. 종이 위에 쓴 노트 느낌.
+로고만 모노스페이스로 각지게 — 터미널/코드 느낌의 포인트.
+============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Pen+Script&family=Gaegu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Pen+Script&family=Gaegu:wght@400;700&family=JetBrains+Mono:wght@700;800&display=swap');
 
 :root {
-    --ink: #33302c;
-    --ink-soft: #6b6459;
-    --paper: #fbf8f1;
-    --paper-2: #f4efe4;
-    --rule: #e2d9c8;
-    --mark: #b4643a;      /* 밑줄·강조 — 붉은 색연필 */
-    --mark-soft: #d8a882;
+--ink: #33302c;
+--ink-soft: #6b6459;
+--paper: #fbf8f1;
+--paper-2: #f4efe4;
+--rule: #e2d9c8;
+--mark: #b4643a; /* 밑줄·강조 — 붉은 색연필 */
+--mark-soft: #d8a882;
 }
 
 :root {
-    --theme: var(--paper);
-    --entry: #fffdf8;
-    --primary: var(--ink);
-    --secondary: var(--ink-soft);
-    --tertiary: var(--paper-2);
-    --content: var(--ink);
-    --border: var(--rule);
-    --code-bg: var(--paper-2);
-    --code-block-bg: var(--paper-2);
+--theme: var(--paper);
+--entry: #fffdf8;
+--primary: var(--ink);
+--secondary: var(--ink-soft);
+--tertiary: var(--paper-2);
+--content: var(--ink);
+--border: var(--rule);
+--code-bg: var(--paper-2);
+--code-block-bg: var(--paper-2);
 }
 
 /* PaperMod 는 html[data-theme] 로 테마를 전환한다.
-   prefers-color-scheme 미디어쿼리를 쓰면 수동 토글이 안 먹으므로 쓰지 않는다. */
+prefers-color-scheme 미디어쿼리를 쓰면 수동 토글이 안 먹으므로 쓰지 않는다. */
 html[data-theme="dark"],
 html[data-theme="dark"] body,
 .dark,
 body.dark {
-    --ink: #e6e0d4;
-    --ink-soft: #a49b8b;
-    --paper: #1e1c19;
-    --paper-2: #2a2723;
-    --rule: #3b362f;
-    --mark: #d99268;
-    --mark-soft: #8a6249;
+--ink: #e6e0d4;
+--ink-soft: #a49b8b;
+--paper: #1e1c19;
+--paper-2: #2a2723;
+--rule: #3b362f;
+--mark: #d99268;
+--mark-soft: #8a6249;
 
-    --theme: var(--paper);
-    --entry: #24211d;
-    --primary: var(--ink);
-    --secondary: var(--ink-soft);
-    --tertiary: var(--paper-2);
-    --content: var(--ink);
-    --border: var(--rule);
-    --code-bg: var(--paper-2);
-    --code-block-bg: var(--paper-2);
-    color-scheme: dark;
+--theme: var(--paper);
+--entry: #24211d;
+--primary: var(--ink);
+--secondary: var(--ink-soft);
+--tertiary: var(--paper-2);
+--content: var(--ink);
+--border: var(--rule);
+--code-bg: var(--paper-2);
+--code-block-bg: var(--paper-2);
+color-scheme: dark;
 }
 
 html[data-theme="dark"] .list,
 .dark .list,
 body.dark.list {
-    background: var(--paper);
+background: var(--paper);
 }
 
 html, body, input, textarea, button {
-    font-family: "Gowun Batang", "Apple SD Gothic Neo", "Noto Serif KR", serif;
+font-family: "Gowun Batang", "Apple SD Gothic Neo", "Noto Serif KR", serif;
 }
 
 body {
-    background: var(--paper);
-    color: var(--ink);
+background: var(--paper);
+color: var(--ink);
 }
 
-/* ---------- 사이트 제목: 손글씨 ---------- */
+/* ---------- 사이트 제목: 모노스페이스 로고 ---------- */
 .logo a,
 .header-nav .logo a {
-    font-family: "Nanum Pen Script", cursive;
-    font-size: 1.85rem;
-    font-weight: 400;
-    letter-spacing: 0.01em;
-    color: var(--ink);
+font-family: "JetBrains Mono", "D2Coding", "SFMono-Regular", monospace;
+font-size: 2.15rem;
+font-weight: 800;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: var(--ink);
+display: inline-flex;
+align-items: center;
+gap: 2px;
+}
+
+.logo a::before {
+content: "> ";
+color: var(--mark);
+font-weight: 800;
 }
 
 .logo a:hover { color: var(--mark); }
 
 /* ---------- 메뉴 ---------- */
 #menu a {
-    font-family: "Gaegu", "Gowun Batang", cursive;
-    font-weight: 700;
-    font-size: 1.02rem;
-    color: var(--ink-soft);
+font-family: "Gaegu", "Gowun Batang", cursive;
+font-weight: 700;
+font-size: 1.02rem;
+color: var(--ink-soft);
 }
 
 #menu a:hover { color: var(--mark); }
 
 #menu .active,
 #menu a.active {
-    color: var(--ink);
-    box-shadow: 0 2px 0 var(--mark-soft);
+color: var(--ink);
+box-shadow: 0 2px 0 var(--mark-soft);
 }
 
 /* ---------- 홈 인사말 ---------- */
 .home-info .entry-header h1,
 .first-entry .entry-header h1 {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-size: 2.6rem;
-    letter-spacing: 0.01em;
-    color: var(--ink);
+font-family: "Nanum Pen Script", cursive;
+font-weight: 400;
+font-size: 2.6rem;
+letter-spacing: 0.01em;
+color: var(--ink);
 }
 
 .home-info .entry-content {
-    font-size: 1.02rem;
-    line-height: 1.95;
-    color: var(--ink);
-    opacity: 1;
+font-size: 1.02rem;
+line-height: 1.95;
+color: var(--ink);
+opacity: 1;
 }
 
 .home-info .entry-content p { margin-bottom: 0.9em; }
 
 .home-info .entry-content a {
-    color: var(--mark);
-    box-shadow: 0 1px 0 var(--mark-soft);
+color: var(--mark);
+box-shadow: 0 1px 0 var(--mark-soft);
 }
 
 /* ---------- 글 제목 ---------- */
@@ -125,43 +136,43 @@ body {
 .entry-header h1,
 .entry-header h2,
 .page-header h1 {
-    font-family: "Gaegu", "Gowun Batang", cursive;
-    font-weight: 700;
-    letter-spacing: -0.005em;
-    line-height: 1.35;
-    color: var(--ink);
+font-family: "Gaegu", "Gowun Batang", cursive;
+font-weight: 700;
+letter-spacing: -0.005em;
+line-height: 1.35;
+color: var(--ink);
 }
 
 .post-single .post-title { font-size: 2.3rem; }
 
 .page-header h1 {
-    font-family: "Nanum Pen Script", cursive;
-    font-weight: 400;
-    font-size: 2.4rem;
+font-family: "Nanum Pen Script", cursive;
+font-weight: 400;
+font-size: 2.4rem;
 }
 
 /* 영문 부제 — 연필로 흘려 쓴 한 줄 */
 .post-description {
-    margin-top: 0.4em;
-    font-family: "Nanum Pen Script", cursive;
-    font-size: 1.12rem;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.02em;
-    text-transform: none;
-    color: var(--ink-soft);
-    opacity: 0.85;
+margin-top: 0.4em;
+font-family: "Nanum Pen Script", cursive;
+font-size: 1.12rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.02em;
+text-transform: none;
+color: var(--ink-soft);
+opacity: 0.85;
 }
 
 .post-meta { color: var(--ink-soft); font-size: 0.85rem; }
 
 /* ---------- 목록 카드 ---------- */
 .post-entry {
-    background: var(--entry);
-    border: 1px solid var(--rule);
-    border-radius: 3px;
-    box-shadow: none;
-    transition: border-color .15s ease;
+background: var(--entry);
+border: 1px solid var(--rule);
+border-radius: 3px;
+box-shadow: none;
+transition: border-color .15s ease;
 }
 
 .post-entry:hover { border-color: var(--mark-soft); }
@@ -171,54 +182,54 @@ body {
 .entry-header h2 { font-size: 1.4rem; }
 
 .entry-content {
-    color: var(--ink-soft);
-    font-size: 0.95rem;
-    line-height: 1.7;
+color: var(--ink-soft);
+font-size: 0.95rem;
+line-height: 1.7;
 }
 
 /* ---------- 본문 ---------- */
 .post-content {
-    font-size: 1.06rem;
-    line-height: 2.0;
-    letter-spacing: 0;
-    color: var(--ink);
+font-size: 1.06rem;
+line-height: 2.0;
+letter-spacing: 0;
+color: var(--ink);
 }
 
 .post-content p { margin: 1.4em 0; }
 
 .post-content h2 {
-    font-family: "Gaegu", cursive;
-    font-weight: 700;
-    font-size: 1.55rem;
-    margin-top: 2.4em;
-    margin-bottom: 0.7em;
-    color: var(--ink);
-    padding-bottom: 0.15em;
-    border-bottom: 1px dashed var(--rule);
+font-family: "Gaegu", cursive;
+font-weight: 700;
+font-size: 1.55rem;
+margin-top: 2.4em;
+margin-bottom: 0.7em;
+color: var(--ink);
+padding-bottom: 0.15em;
+border-bottom: 1px dashed var(--rule);
 }
 
 .post-content h3 {
-    font-family: "Gaegu", cursive;
-    font-weight: 700;
-    font-size: 1.28rem;
-    color: var(--ink);
-    margin-top: 1.9em;
+font-family: "Gaegu", cursive;
+font-weight: 700;
+font-size: 1.28rem;
+color: var(--ink);
+margin-top: 1.9em;
 }
 
 .post-content strong {
-    font-weight: 700;
-    color: var(--ink);
-    background: linear-gradient(transparent 62%, var(--mark-soft) 62%, var(--mark-soft) 88%, transparent 88%);
+font-weight: 700;
+color: var(--ink);
+background: linear-gradient(transparent 62%, var(--mark-soft) 62%, var(--mark-soft) 88%, transparent 88%);
 }
 
 html[data-theme="dark"] .post-content strong,
 .dark .post-content strong {
-    background: linear-gradient(transparent 62%, rgba(217,146,104,0.28) 62%, rgba(217,146,104,0.28) 88%, transparent 88%);
+background: linear-gradient(transparent 62%, rgba(217,146,104,0.28) 62%, rgba(217,146,104,0.28) 88%, transparent 88%);
 }
 
 .post-content a {
-    color: var(--mark);
-    box-shadow: 0 1px 0 var(--mark-soft);
+color: var(--mark);
+box-shadow: 0 1px 0 var(--mark-soft);
 }
 
 .post-content ul, .post-content ol { margin: 1.2em 0; }
@@ -226,77 +237,77 @@ html[data-theme="dark"] .post-content strong,
 
 /* 인용 — 여백에 적어둔 메모 */
 .post-content blockquote {
-    border-inline-start: 2px solid var(--mark-soft);
-    background: var(--paper-2);
-    padding: 0.9em 1.2em;
-    margin: 1.8em 0;
-    font-style: normal;
-    color: var(--ink-soft);
-    border-radius: 0 3px 3px 0;
+border-inline-start: 2px solid var(--mark-soft);
+background: var(--paper-2);
+padding: 0.9em 1.2em;
+margin: 1.8em 0;
+font-style: normal;
+color: var(--ink-soft);
+border-radius: 0 3px 3px 0;
 }
 
 .post-content blockquote p { margin: 0.3em 0; }
 
 /* ---------- 코드 메모 카드 (.term) ----------
-   예전 터미널 창 스타일 대신, 노트에 붙여둔 메모지 느낌으로 낮춘다 */
+예전 터미널 창 스타일 대신, 노트에 붙여둔 메모지 느낌으로 낮춘다 */
 .post-content .term {
-    margin: 1.9em 0;
-    border: 1px solid var(--rule);
-    border-left: 3px solid var(--mark-soft);
-    border-radius: 2px;
-    background: var(--paper-2);
-    overflow: hidden;
-    box-shadow: none;
+margin: 1.9em 0;
+border: 1px solid var(--rule);
+border-left: 3px solid var(--mark-soft);
+border-radius: 2px;
+background: var(--paper-2);
+overflow: hidden;
+box-shadow: none;
 }
 
 html[data-theme="dark"] .post-content .term,
 .dark .post-content .term { background: #191714; }
 
 .post-content .term-bar {
-    display: block;
-    padding: 7px 14px 5px;
-    background: transparent;
-    border-bottom: 1px dashed var(--rule);
+display: block;
+padding: 7px 14px 5px;
+background: transparent;
+border-bottom: 1px dashed var(--rule);
 }
 
 .post-content .term-bar i { display: none; }
 
 .post-content .term-bar em {
-    margin-left: 0;
-    font-family: "Gaegu", cursive;
-    font-style: normal;
-    font-size: 0.95rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    color: var(--ink-soft);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+margin-left: 0;
+font-family: "Gaegu", cursive;
+font-style: normal;
+font-size: 0.95rem;
+font-weight: 700;
+letter-spacing: 0;
+color: var(--ink-soft);
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 
 .post-content .term pre {
-    margin: 0;
-    padding: 13px 16px;
-    background: transparent;
-    border: 0;
-    border-radius: 0;
-    overflow-x: auto;
+margin: 0;
+padding: 13px 16px;
+background: transparent;
+border: 0;
+border-radius: 0;
+overflow-x: auto;
 }
 
 .post-content .term pre code {
-    display: block !important;
-    background: transparent !important;
-    padding: 0 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    margin: 0 !important;
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-    color: var(--ink) !important;
-    font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", monospace;
-    font-size: 0.78rem;
-    line-height: 1.75;
-    white-space: pre;
+display: block !important;
+background: transparent !important;
+padding: 0 !important;
+border: 0 !important;
+border-radius: 0 !important;
+margin: 0 !important;
+word-break: normal !important;
+overflow-wrap: normal !important;
+color: var(--ink) !important;
+font-family: "SFMono-Regular", Menlo, Consolas, "D2Coding", monospace;
+font-size: 0.78rem;
+line-height: 1.75;
+white-space: pre;
 }
 
 .post-content .term .c { color: var(--ink-soft); }
@@ -317,33 +328,33 @@ html[data-theme="dark"] .post-content .term .b,
 
 /* 일반 코드블록 */
 .post-content pre {
-    background: var(--paper-2) !important;
-    border: 1px solid var(--rule);
-    border-radius: 2px;
+background: var(--paper-2) !important;
+border: 1px solid var(--rule);
+border-radius: 2px;
 }
 
 .post-content code {
-    background: var(--paper-2);
-    color: var(--mark);
-    font-size: 0.85em;
-    padding: 2px 5px;
-    border-radius: 2px;
+background: var(--paper-2);
+color: var(--mark);
+font-size: 0.85em;
+padding: 2px 5px;
+border-radius: 2px;
 }
 
 /* ---------- 구분선 ---------- */
 .post-content hr {
-    border: 0;
-    border-top: 1px dashed var(--rule);
-    margin: 2.6em 0;
+border: 0;
+border-top: 1px dashed var(--rule);
+margin: 2.6em 0;
 }
 
 /* ---------- 푸터 ---------- */
 .footer {
-    color: var(--ink-soft);
-    font-size: 0.85rem;
-    border-top: 1px dashed var(--rule);
-    margin-top: 3rem;
-    padding-top: 1.4rem;
+color: var(--ink-soft);
+font-size: 0.85rem;
+border-top: 1px dashed var(--rule);
+margin-top: 3rem;
+padding-top: 1.4rem;
 }
 
 .footer a { color: var(--ink-soft); box-shadow: 0 1px 0 var(--rule); }
@@ -351,45 +362,44 @@ html[data-theme="dark"] .post-content .term .b,
 
 /* ---------- 태그 ---------- */
 .post-tags a, .terms-tags a {
-    background: var(--paper-2);
-    border: 1px solid var(--rule);
-    border-radius: 2px;
-    color: var(--ink-soft);
-    font-family: "Gaegu", cursive;
-    font-weight: 700;
-    box-shadow: none;
+background: var(--paper-2);
+border: 1px solid var(--rule);
+border-radius: 2px;
+color: var(--ink-soft);
+font-family: "Gaegu", cursive;
+font-weight: 700;
+box-shadow: none;
 }
 
 .post-tags a:hover, .terms-tags a:hover {
-    border-color: var(--mark-soft);
-    color: var(--mark);
+border-color: var(--mark-soft);
+color: var(--mark);
 }
 
 /* ---------- 페이지네이션 · 목차 ---------- */
 .pagination .prev, .pagination .next {
-    background: var(--entry);
-    border: 1px solid var(--rule);
-    border-radius: 2px;
-    color: var(--ink);
-    font-family: "Gaegu", cursive;
-    font-weight: 700;
+background: var(--entry);
+border: 1px solid var(--rule);
+border-radius: 2px;
+color: var(--ink);
+font-family: "Gaegu", cursive;
+font-weight: 700;
 }
 
 .toc {
-    background: var(--paper-2);
-    border: 1px dashed var(--rule);
-    border-radius: 2px;
+background: var(--paper-2);
+border: 1px dashed var(--rule);
+border-radius: 2px;
 }
 
 .toc .details { font-family: "Gaegu", cursive; font-weight: 700; }
 
 /* ---------- 반응형 ---------- */
 @media (max-width: 640px) {
-    .post-content { font-size: 1.01rem; line-height: 1.92; }
-    .post-single .post-title { font-size: 1.8rem; }
-    .post-content .term pre code { font-size: 0.69rem; }
-    .logo a, .header-nav .logo a { font-size: 1.6rem; }
+.post-content { font-size: 1.01rem; line-height: 1.92; }
+.post-single .post-title { font-size: 1.8rem; }
+.post-content .term pre code { font-size: 0.69rem; }
+.logo a, .header-nav .logo a { font-size: 1.7rem; letter-spacing: -0.03em; }
 }
 
 /* 미디어쿼리 다크에서도 같은 보정 */
-

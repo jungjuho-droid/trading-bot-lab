@@ -296,3 +296,15 @@ Today it's settled into something closer to a swing structure, hunting for pullb
 Looking back, this Bot is what holds the emotions I can't. I'm still the kind of person who wants to pray at -20% and can't let go of the phone at +5%. The logic holds the line instead. And there's one more thing: the bot doesn't carry yesterday into today. People try to make back a big loss and get bold after a big win. The bot looks at every day through the same lens. Writing code to do the thing I can't do myself — that might be the most honest reason to build a trading bot at all.
 
 > Jesse Livermore said the market feeds on human emotion. I'd only add one line to that — if you can't beat emotion, delete the space where it gets a say, and write that space into code instead.
+
+---
+
+## 약어 풀이
+
+\* 이 글에 나온 영어 약어를 풀어 둔다.
+
+- **RSI** (Relative Strength Index): 상대강도지수. 일정 기간 평균 상승폭과 평균 하락폭의 비율을 0~100 으로 나타내 과매수·과매도를 재는 모멘텀 오실레이터.
+- **MA** (Moving Average): 이동평균. 일정 기간 가격의 평균을 이어 그린 선. 추세의 방향과 지지·저항의 기준으로 쓴다.
+- **GUI** (Graphical User Interface): 그래픽 사용자 인터페이스. 마우스로 다루는 창·버튼 화면.
+- **EC2** (Amazon Elastic Compute Cloud): 아마존 AWS 의 가상 서버 서비스. 봇을 24시간 돌리는 데 쓴다.
+- **HFT** (High-Frequency Trading): 고빈도 매매. 아주 짧은 시간에 많은 주문을 내는 매매 방식.

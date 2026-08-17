@@ -1,5 +1,5 @@
 ---
-title: "Chandelier Exit: A Stop Hung From the Ceiling and Dragged Upward"
+title: "샹들리에 엑시트, 천장에 매달아 끌어올리는 손절선 (Chandelier Exit: A Stop Hung From the Ceiling and Dragged Upward)"
 description: "CHANDELIER EXIT · A Stop That Hangs From the Ceiling"
 date: 2026-08-14T21:00:00+09:00
 draft: false

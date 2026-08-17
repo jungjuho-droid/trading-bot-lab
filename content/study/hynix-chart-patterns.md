@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: SK Hynix's Double Top and the Measured Target That Failed"
+title: "SK하이닉스, 이중천장은 맞았고 목표가는 틀렸다: 차트 패턴 (Chart Patterns: SK Hynix's Double Top and the Measured Target That Failed)"
 description: "Chart Patterns on SK Hynix · 2026-06-02 ~ 2026-08-14"
 date: 2026-08-14T22:00:00+09:00
 draft: false

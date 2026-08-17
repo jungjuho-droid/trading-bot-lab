@@ -1,5 +1,5 @@
 ---
-title: "BBTrend: Reading Trend by Stacking Two Bollinger Bands"
+title: "BBTrend, 볼린저밴드 두 장을 겹쳐 추세를 읽는다 (BBTrend: Reading Trend by Stacking Two Bollinger Bands)"
 description: "BBTREND · Two Bands, One Number"
 date: 2026-08-14T20:10:00+09:00
 draft: false

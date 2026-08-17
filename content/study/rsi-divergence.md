@@ -1,5 +1,5 @@
 ---
-title: "RSI Divergence Oscillator: Building a Bot From a Single Pine Script"
+title: "RSI 다이버전스, 파인스크립트 한 장으로 봇을 만들다 (RSI Divergence Oscillator: Building a Bot From a Single Pine Script)"
 description: "RSI DIVERGENCE · From One Pine Script to a Working Trading Bot"
 date: 2026-08-14T19:00:00+09:00
 draft: false

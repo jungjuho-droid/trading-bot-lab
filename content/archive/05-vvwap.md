@@ -1,5 +1,5 @@
 ---
-title: "5. Where the Name VV Came From"
+title: "5. VV라는 이름은 어디서 왔나 (5. Where the Name VV Came From)"
 description: "앵커드 VWAP, 그리고 완성하지 못한 C++ 포팅"
 date: 2026-07-24T21:00:00+09:00
 draft: false

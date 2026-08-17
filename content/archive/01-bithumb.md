@@ -1,5 +1,5 @@
 ---
-title: "1. It Started on Bithumb: Ten Days, 95 Versions"
+title: "1. 빗썸에서 시작했다: 열흘, 95개 버전 (1. It Started on Bithumb: Ten Days, 95 Versions)"
 description: "윈도우 tkinter 창에서 단타를 돌리던 시절"
 date: 2026-06-03T21:00:00+09:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Auto Key Levels: I Stopped Drawing Support Lines by Hand"
+title: "지지선을 손으로 긋는 걸 그만뒀다: 오토 키 레벨 (Auto Key Levels: I Stopped Drawing Support Lines by Hand)"
 description: "AUTO KEY LEVELS · Letting the Code Draw the Lines"
 date: 2026-08-14T20:50:00+09:00
 draft: false

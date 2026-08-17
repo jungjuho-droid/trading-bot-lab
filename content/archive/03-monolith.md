@@ -1,5 +1,5 @@
 ---
-title: "3. When Everything Lived in One File: 120 Versions"
+title: "3. 모든 게 파일 하나에 살던 시절: 120개 버전 (3. When Everything Lived in One File: 120 Versions)"
 description: "1,500줄 모놀리스가 감당이 안 되기까지"
 date: 2026-07-01T21:00:00+09:00
 draft: false

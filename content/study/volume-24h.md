@@ -1,5 +1,5 @@
 ---
-title: "24h Trading Value: Asking First Whether a Coin Is Even Tradable"
+title: "24시간 거래대금, 이 코인이 거래는 되는 코인인지부터 묻는다 (24h Trading Value: Asking First Whether a Coin Is Even Tradable)"
 description: "24H VOLUME · Can I Actually Trade This?"
 date: 2026-08-14T20:30:00+09:00
 draft: false

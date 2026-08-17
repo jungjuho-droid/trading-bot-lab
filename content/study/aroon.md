@@ -1,5 +1,5 @@
 ---
-title: "Aroon Oscillator: The Indicator That Measures Time, Not Price"
+title: "아룬 오실레이터, 가격 대신 시간을 재는 지표 (Aroon Oscillator: The Indicator That Measures Time, Not Price)"
 description: "AROON · The Indicator That Measures Time, Not Price"
 date: 2026-08-14T20:40:00+09:00
 draft: false

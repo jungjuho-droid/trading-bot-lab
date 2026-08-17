@@ -1,5 +1,5 @@
 ---
-title: "6. The Bot Today: After Splitting Into Modules and Deciding by Numbers"
+title: "6. 지금의 봇: 모듈로 쪼개고 숫자로 결정한 뒤 (6. The Bot Today: After Splitting Into Modules and Deciding by Numbers)"
 description: "검증 없이 배포 없다는 규칙이 생긴 시기"
 date: 2026-08-13T23:00:00+09:00
 draft: false

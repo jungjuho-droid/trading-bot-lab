@@ -1,5 +1,5 @@
 ---
-title: "4. Running Four Strategies at Once"
+title: "4. 전략 네 개를 한꺼번에 돌리다 (4. Running Four Strategies at Once)"
 description: "하이브리드·BASE·MACRO, 그리고 빗썸으로 돌아간 갈래"
 date: 2026-07-15T21:00:00+09:00
 draft: false

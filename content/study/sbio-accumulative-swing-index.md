@@ -1,5 +1,5 @@
 ---
-title: "Accumulative Swing Index: Samsung Biologics, Every New High Faded Within a Week"
+title: "삼성바이오로직스, 신고가는 일주일을 못 넘겼다: 누적 스윙 지수 ASI (Accumulative Swing Index: Samsung Biologics, Every New High Faded Within a Week)"
 description: "삼성바이오로직스(코스피, 바이오) 50거래일 일봉으로 어큐뮬레이티브 스윙 인덱스(ASI)를 직접 계산해 신호 7건을 전수 검증했다. A numpy build of the Accumulative Swing Index on Samsung Biologics (KOSPI biotech) checks all seven 10-day signals."
 date: 2026-08-17T09:00:00+09:00
 draft: false

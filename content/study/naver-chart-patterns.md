@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: At NAVER the Same Line Says Both Buy and Sell"
+title: "네이버, 같은 선이 사라고도 팔라고도 말한다: 차트 패턴 (Chart Patterns: At NAVER the Same Line Says Both Buy and Sell)"
 description: "Chart Patterns on NAVER · 2026-05-13 ~ 2026-08-14"
 date: 2026-08-15T00:30:00+09:00
 draft: false

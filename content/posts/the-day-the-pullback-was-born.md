@@ -1,5 +1,5 @@
 ---
-title: "The Day the Pullback Strategy Was Born, and the Day the Bot Started Talking Back"
+title: "눌림목 전략이 태어난 날, 봇이 말대꾸를 시작한 날 (The Day the Pullback Strategy Was Born, and the Day the Bot Started Talking Back)"
 description: "BT.V1.09–V1.15 · The Day the Pullback Was Born"
 date: 2026-05-28T19:07:00+09:00
 draft: false

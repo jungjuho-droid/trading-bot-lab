@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: LG Electronics Had Only One Pattern, and It Was Eerily Right"
+title: "LG전자, 패턴은 하나뿐이었는데 소름 돋게 맞았다: 차트 패턴 (Chart Patterns: LG Electronics Had Only One Pattern, and It Was Eerily Right)"
 description: "Chart Patterns on LG Electronics · 2026-06-01 ~ 2026-08-14"
 date: 2026-08-15T00:10:00+09:00
 draft: false

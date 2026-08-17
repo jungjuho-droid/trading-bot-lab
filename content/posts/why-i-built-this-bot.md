@@ -1,5 +1,5 @@
 ---
-title: "The Trader With the Emotions Deleted"
+title: "감정을 지운 트레이더 (The Trader With the Emotions Deleted)"
 date: 2026-04-20T10:00:00+09:00
 draft: false
 tags: ["개발일지", "자동매매", "빗썸", "업비트"]

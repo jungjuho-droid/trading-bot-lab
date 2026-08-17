@@ -1,5 +1,5 @@
 ---
-title: "MA Cross: The First Rule My Bot Learned, and the First One It Dropped"
+title: "MA 크로스, 봇이 처음 배운 규칙이자 처음 버린 규칙 (MA Cross: The First Rule My Bot Learned, and the First One It Dropped)"
 description: "MA CROSS · The First Rule My Bot Learned, and the First It Dropped"
 date: 2026-08-14T20:20:00+09:00
 draft: false

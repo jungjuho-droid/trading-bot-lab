@@ -1,5 +1,5 @@
 ---
-title: "Accelerator Oscillator: It Turned Green Two Sessions After the Bottom"
+title: "삼성전기, 바닥 이틀 뒤에야 초록불이 켜졌다: 가속 오실레이터 AC (Accelerator Oscillator: It Turned Green Two Sessions After the Bottom)"
 description: "삼성전기가 61% 빠졌다 77% 되돌아온 구간에 Accelerator Oscillator를 대봤다. 가속도가 먼저 꺾인다는 주장이 이번엔 맞지 않았다."
 date: 2026-08-16T22:00:00+09:00
 draft: false

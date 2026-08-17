@@ -1,5 +1,5 @@
 ---
-title: "Volume: Price Is an Opinion, Volume Is a Payment"
+title: "거래량, 가격은 의견이고 거래량은 결제다 (Volume: Price Is an Opinion, Volume Is a Payment)"
 description: "VOLUME · Price Is an Opinion, Volume Is a Payment"
 date: 2026-08-14T19:55:00+09:00
 draft: false

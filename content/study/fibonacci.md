@@ -1,5 +1,5 @@
 ---
-title: "Fibonacci Retracement: Between the Myth of 0.618 and Actual Use"
+title: "피보나치 되돌림, 0.618의 신화와 실전 사이 (Fibonacci Retracement: Between the Myth of 0.618 and Actual Use)"
 description: "FIBONACCI · Between the 0.618 Myth and Practical Use"
 date: 2026-08-14T19:57:00+09:00
 draft: false

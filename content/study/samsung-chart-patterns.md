@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: Samsung Electronics' 50% Drop and an Inverse Head and Shoulders"
+title: "삼성전자, 50% 폭락과 역헤드앤숄더: 차트 패턴 (Chart Patterns: Samsung Electronics' 50% Drop and an Inverse Head and Shoulders)"
 description: "Chart Patterns on Samsung Electronics · 2026-06-05 ~ 2026-08-14"
 date: 2026-08-14T21:00:00+09:00
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "SMC (Smart Money Concepts): Translating BOS, CHoCH and Order Blocks Into Bot Logic"
+title: "SMC 스마트머니, BOS·CHoCH·오더블록을 봇 로직으로 옮기다 (SMC (Smart Money Concepts): Translating BOS, CHoCH and Order Blocks Into Bot Logic)"
 description: "SMC · Smart Money Concepts, Translated into Bot Logic"
 date: 2026-08-14T19:40:00+09:00
 draft: false

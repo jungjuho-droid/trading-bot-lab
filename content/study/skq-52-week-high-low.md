@@ -1,5 +1,5 @@
 ---
-title: "52-Week High/Low: SK Square's New High Lied, Its New Low Didn't"
+title: "SK스퀘어, 신고가는 속였고 신저가는 통했다: 52주 신고가·신저가 (52-Week High/Low: SK Square's New High Lied, Its New Low Didn't)"
 description: "SK스퀘어가 52주 신고가를 찍고 두 달 만에 반토막 난 구간을 신고가/신저가 지표로 뜯어봤다. This post backtests the 52-week high/low indicator on SK Square's brutal June-to-August round trip using real KRX daily data."
 date: 2026-08-15T08:30:00+09:00
 draft: false

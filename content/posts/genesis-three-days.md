@@ -1,5 +1,5 @@
 ---
-title: "From One Note to 615 Lines: The Two Days the Bot Was Born"
+title: "메모 한 장에서 615줄까지: 봇이 태어난 이틀 (From One Note to 615 Lines: The Two Days the Bot Was Born)"
 description: "BT.V1.04–V1.05 · From a Note to 615 Lines"
 date: 2026-05-25T09:00:00+09:00
 draft: false

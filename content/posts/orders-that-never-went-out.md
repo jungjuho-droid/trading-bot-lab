@@ -1,5 +1,5 @@
 ---
-title: "The Orders That Never Went Out: Bugs Between Numbers and People"
+title: "나가지 못한 주문들: 숫자와 사람 사이의 버그 (The Orders That Never Went Out: Bugs Between Numbers and People)"
 description: "BT.V1.07–V1.14 · The Orders That Never Went Out"
 date: 2026-05-26T22:05:00+09:00
 draft: false

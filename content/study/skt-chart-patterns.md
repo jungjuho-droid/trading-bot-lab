@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: SK Telecom Hit the Target Within 100 Won, Then Fell 16%"
+title: "SK텔레콤, 목표가를 100원 차이로 맞히고 16% 빠졌다: 차트 패턴 (Chart Patterns: SK Telecom Hit the Target Within 100 Won, Then Fell 16%)"
 description: "Chart Patterns on SK Telecom · 2026-05-27 ~ 2026-08-14"
 date: 2026-08-15T00:40:00+09:00
 draft: false

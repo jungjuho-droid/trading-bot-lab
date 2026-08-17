@@ -1,5 +1,5 @@
 ---
-title: "Chart Patterns: Four Names for the Same 12 Sessions at Hyundai Motor"
+title: "현대차, 같은 12거래일에 이름이 네 개 붙었다: 차트 패턴 (Chart Patterns: Four Names for the Same 12 Sessions at Hyundai Motor)"
 description: "Chart Patterns on Hyundai Motor · 2026-05-28 ~ 2026-08-14"
 date: 2026-08-15T00:20:00+09:00
 draft: false

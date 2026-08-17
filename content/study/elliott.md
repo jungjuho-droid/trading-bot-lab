@@ -1,5 +1,5 @@
 ---
-title: "Elliott Wave: Why Dissect a Theory You Cannot Put in a Bot"
+title: "엘리어트 파동, 봇에 못 넣는 이론을 굳이 해부한 이유 (Elliott Wave: Why Dissect a Theory You Cannot Put in a Bot)"
 description: "ELLIOTT WAVE · Dissecting the Theory a Bot Can't Quite Hold"
 date: 2026-08-14T19:59:00+09:00
 draft: false

@@ -35,8 +35,8 @@ params:
   env: production
   mainSections: ["study", "posts", "archive"]
   title: "Trading Bot Lab"
-  description: "Stock & Crypto Trading Bot Dev Log — 주식과 코인을 오가며 트레이딩 봇을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
-  keywords: [crypto trading bot, trading bot, algorithmic trading, upbit bot, 크립토 트레이딩 봇, 트레이딩봇, 자동매매, 매매지표, RSI, 거래량, 업비트, 개발일지]
+  description: "Multi-Market Trading Bot Dev Log — 국내·해외 주식과 선물, 크립토를 오가며 트레이딩 봇을 만들고 부수고 고치는 기록. 매매 지표를 공식부터 코드까지 뜯어봅니다."
+  keywords: [crypto trading bot, futures trading bot, trading bot, algorithmic trading, upbit bot, 크립토 트레이딩 봇, 트레이딩봇, 자동매매, 매매지표, 선물자동매매, 국내선물, 해외선물, 해외코인선물, RSI, 거래량, 업비트, 개발일지]
   author: "JH"
   DateFormat: "2006년 1월 2일"
   defaultTheme: auto
@@ -73,9 +73,9 @@ params:
     iconHeight: 35
 
   homeInfoParams:
-    Title: "Trading Bot Lab — Stock & Crypto Trading Bot Dev Log"
+    Title: "Trading Bot Lab — Multi-Market Trading Bot Dev Log"
     Content: >
-      안녕하세요. 이 블로그는 혼자서 크립토 트레이딩 봇(Crypto Trading Bot)을 만들고, 부수고, 다시 고치는 과정을 기록하는 공간입니다.
+      안녕하세요. 이 블로그는 혼자서 자동매매 봇을 만들고, 부수고, 다시 고치는 과정을 기록하는 공간입니다. 시작은 업비트 크립토 봇이었는데, 지금은 국내 주식·국내 선물·해외선물·해외코인선물까지 손을 넓히고 있어요.
 
 
       거창한 투자 리포트나 "이렇게 하면 무조건 번다" 류의 글은 아니고요, 그냥 새벽에 봇 로그 들여다보다가 깨달은 것들,
@@ -85,13 +85,13 @@ params:
       > "시장에서 살아남는 사람은 가장 똑똑한 사람이 아니라, 가장 오래 버틴 사람이다." — 제시 리버모어
 
 
-      버티는 쪽에 걸어보려고 합니다. 천천히, 자주 쓸게요.
+      버티는 쪽에 걸어보려고 합니다. 시장이든 종목이든 하나씩 넓혀가며, 천천히 자주 쓸게요.
 
 
-      **Crypto Trading Bot Dev Log** — building, breaking and fixing a crypto trading bot, one version at a time.
+      **Multi-Market Trading Bot Dev Log** — crypto, 국내·해외 주식과 선물을 오가며 자동매매 봇을 만들고 부수고 고치는 기록.
 
 
-      Indicator studies, dev logs and a six-era archive of an Upbit crypto trading bot. Written in Korean.
+      Indicator studies, dev logs and a growing multi-market trading bot archive, starting from an Upbit crypto bot. Written in Korean.
 
   footer:
     hideCopyright: false
@@ -99,7 +99,7 @@ params:
       문의 jungjuho@gmail.com · [개인정보 처리방침](/privacy/)
 
 
-      이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다. · A personal crypto trading bot dev log — not investment advice.
+      이곳의 글은 개인의 개발 기록이며 투자 권유가 아닙니다. · A personal multi-market trading bot dev log — not investment advice.
 
   editPost:
     URL: ""

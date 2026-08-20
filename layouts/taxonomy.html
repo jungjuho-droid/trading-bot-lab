@@ -1,0 +1,46 @@
+{{/* PaperMod taxonomy.html 오버라이드 (테마 27줄 + .Content 렌더).
+
+     테마 원본은 제목·설명과 term 목록만 찍고 _index.md 본문을 버린다.
+     그래서 /markets/ 가 "Markets Crypto Study 13 Stock Study 13" 38자짜리
+     화면이었는데 광고 스크립트는 실리고 있었다. 애드센스 게시자 정책의
+     "게시자 콘텐츠가 없거나 가치가 별로 없는 콘텐츠를 사용한 화면" 에 해당한다.
+
+     .Content 블록은 테마 list.html(33~39행)과 같은 마크업을 쓴다.
+     본문이 없는 택소노미(/tags/, /series/)는 이 블록이 통째로 비므로
+     동작이 달라지지 않는다.
+     테마 업데이트 시 taxonomy.html 원본과 대조할 것. */}}
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content md-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<ul class="terms-tags">
+    {{- $type := .Type }}
+        {{- range $key, $value := .Data.Terms.Alphabetical }}
+            {{- $name := .Name }}
+            {{- $count := .Count }}
+            {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .LinkTitle }} <sup><strong><sup>{{ $count }}</sup></strong></sup> </a>
+            </li>
+        {{- end }}
+    {{- end }}
+</ul>
+
+{{- end }}{{/* end main */ -}}

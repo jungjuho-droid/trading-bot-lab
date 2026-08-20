@@ -1,5 +1,6 @@
 ---
 title: "차트 앞에서 배운 처세: 소심한 개미가 매매봇을 만들기까지 (About: From a Timid Retail Trader to a Bot Builder)"
+date: 2026-08-14T00:00:00+09:00
 description: "2008년 주식으로 시작해 2017년 비트코인, 2020년 코인 선물, 그리고 2026년 매매봇 500번 릴리즈까지. 이 블로그를 쓰는 사람의 이야기. A retail trader since 2008 who now builds his own trading bots, one version at a time."
 url: "/about/"
 summary: "물릴 땐 크게 물리고 벌 땐 적게 벌던 사람이, 결국 자기 손을 믿지 않기로 하고 봇을 만들었다."

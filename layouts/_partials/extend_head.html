@@ -16,7 +16,11 @@
        content/search.md 프론트매터가 정하고, 태그 출력은 테마에 맡긴다.
        markets 는 택소노미지만 실제 콘텐츠 허브라 대상에서 뺀다.
      ──────────────────────────────────────────────────────────── */}}
-{{- if not .Params.robotsNoIndex -}}
+{{/* [2026-08-21] 404 도 광고 제외. Hugo 가 내는 오류 화면은 본문이 "404" 세 글자뿐인데
+     (.Kind 로 판별, RelPermalink=/404.html) 광고 로더가 실리고 있었다.
+     애드센스는 콘텐츠 없는 화면·오류 페이지 게재를 금지한다. */}}
+{{- $noAds := or .Params.robotsNoIndex (eq .Kind "404") -}}
+{{- if not $noAds -}}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6787564943937632"
      crossorigin="anonymous"></script>
 {{- end -}}

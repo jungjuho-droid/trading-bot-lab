@@ -1,7 +1,7 @@
 ---
 title: "[개발일지] VV218 — 33초 만에 7만 5천원을 잃었다 (Dev Log VV218: Thirty-Three Seconds, 75,000 Won)"
 description: "같은 낙폭 수치를 보고 한쪽 규칙은 격리하라 하고 다른 쪽은 사도 된다고 했다. 그 틈에서 떨어지는 칼을 잡았다. Two rules read the same drawdown number and gave opposite verdicts, and the bot bought into a free fall."
-date: 2026-08-22T19:55:00+09:00
+date: 2026-08-22T19:52:00+09:00
 draft: false
 tags: ["개발일지", "자동매매", "업비트", "장애복기"]
 summary: "진입 5초 뒤에 급락 격리가 발동했다. 이미 사고 난 다음이었다."

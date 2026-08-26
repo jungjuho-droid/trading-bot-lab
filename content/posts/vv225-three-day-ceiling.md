@@ -1,7 +1,7 @@
 ---
 title: "[개발일지] VV225 — 3일 상한이 승자를 자르고 있었다 (Dev Log VV225: The Three-Day Ceiling)"
 description: "메이저 슬롯의 72시간 시간청산을 재검증하니 강제청산된 거래의 평균이 +3.17%였다. 상한을 7일로 늘렸다. Re-testing the 72-hour time exit showed force-closed trades averaging +3.17%, so the cap moved to seven days."
-date: 2026-08-26T22:42:00+09:00
+date: 2026-08-26T22:05:00+09:00
 draft: false
 tags: ["개발일지", "자동매매", "업비트", "백테스트"]
 summary: "72시간에 강제청산된 거래의 평균이 +3.17%였다. 보유상한을 168시간으로 늘렸다."

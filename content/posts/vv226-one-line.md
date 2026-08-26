@@ -1,7 +1,7 @@
 ---
 title: "[개발일지] VV226 — 글자 하나가 줄을 밀었다 (Dev Log VV226: One Character Too Wide)"
 description: "시간청산 표기가 72h에서 168h로 바뀌며 터미널 한 줄이 77칸을 넘었다. 정보 하나를 빼서 복원했다. Changing 72h to 168h pushed a terminal line past 77 columns, so one redundant field was dropped."
-date: 2026-08-26T23:05:00+09:00
+date: 2026-08-26T22:15:00+09:00
 draft: false
 tags: ["개발일지", "자동매매", "업비트", "성능개선"]
 summary: "168h 표기로 [메이저] 줄이 77칸을 넘어 AC가 다음 줄로 밀렸다. 한 구간을 빼서 한 줄로 되돌렸다."
